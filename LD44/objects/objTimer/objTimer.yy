@@ -1,48 +1,28 @@
 {
-    "id": "f082d38b-f53e-40fd-a51e-d7f5bb8029f5",
+    "id": "e2a6e1fa-143a-4d9a-87a2-63d8cd2acabb",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "objGameControl",
+    "name": "objTimer",
     "eventList": [
         {
-            "id": "617a4efd-be4b-45ac-9b23-94b75c699bdd",
+            "id": "b83dd73d-a4c9-4ce6-9ab1-d7e755eaac1c",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "f082d38b-f53e-40fd-a51e-d7f5bb8029f5"
+            "m_owner": "e2a6e1fa-143a-4d9a-87a2-63d8cd2acabb"
         },
         {
-            "id": "2cbbac0e-94cd-4057-8e39-66960958d77b",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 64,
-            "eventtype": 8,
-            "m_owner": "f082d38b-f53e-40fd-a51e-d7f5bb8029f5"
-        },
-        {
-            "id": "75ac13e6-a79a-47a8-8687-da42879efb02",
+            "id": "f152321b-8a13-42b4-8325-0566e1b6a175",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "f082d38b-f53e-40fd-a51e-d7f5bb8029f5"
-        },
-        {
-            "id": "43229603-ae52-4f70-8c99-316cdbdbebaf",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 9,
-            "eventtype": 9,
-            "m_owner": "f082d38b-f53e-40fd-a51e-d7f5bb8029f5"
+            "eventtype": 2,
+            "m_owner": "e2a6e1fa-143a-4d9a-87a2-63d8cd2acabb"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",

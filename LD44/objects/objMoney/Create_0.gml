@@ -1,6 +1,7 @@
 /// @description Initialize variables, etc
 
 //How much is this worth?
-value = 5;
+baseValue = 5;
+value = baseValue;
 
 parent = noone;

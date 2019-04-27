@@ -3,12 +3,12 @@
 
 if (keyboard_check_pressed(ord("I"))) {
   //room_goto(roomInstructions); // TODO: Remove or change to instructions screen
-} else if (keyboard_check_pressed(vk_left)) {
+} else if (keyboard_check_pressed(vk_right) && !self.isScrolling) {
   scrShowCredits(); 
-} else if (keyboard_check_pressed(vk_right)) {
+} else if (keyboard_check_pressed(vk_left) && !self.isScrolling) {
   scrHideCredits(); 
 } else if (keyboard_check_pressed(vk_anykey)) {
-  scrGoToMainScreen();
+  //scrGoToMainScreen();
 }
 
 if(self.viewTarget != self.oldViewTarget) {
@@ -20,10 +20,14 @@ if(self.viewTarget != self.oldViewTarget) {
 if(self.isScrolling) {
 	// Move the camera
 	if(self.viewTarget == "credits") {
-		var percentFromLeft = afm_scrCurveCubicInOut(0, 1, self.scrollTime/self.durationOfScroll);
+		var initialPositionPercent = titlePositionX/room_width;
+		var finalPositionPercent = creditsPositionX/room_width;
+		var percentFromLeft = afm_scrCurveCubicInOut(finalPositionPercent, initialPositionPercent, self.scrollTime/self.durationOfScroll);
 		scrSetTitleScrollPosition(percentFromLeft);
 	} else if(self.viewTarget == "title") {
-		var percentFromLeft = afm_scrCurveCubicInOut(1, 0, self.scrollTime/self.durationOfScroll);
+		var initialPositionPercent = creditsPositionX/room_width;
+		var finalPositionPercent = titlePositionX/room_width;
+		var percentFromLeft = afm_scrCurveCubicInOut(finalPositionPercent, initialPositionPercent, self.scrollTime/self.durationOfScroll);
 		scrSetTitleScrollPosition(percentFromLeft);
 	}
 

@@ -5,7 +5,10 @@
 viewTarget = "title"; // "title", "credits"
 oldViewTarget = viewTarget;
 isScrolling = false;
-durationOfScroll = 2.0*room_speed;
+durationOfScroll = 1.5*room_speed;
 scrollTime = 0;
 
-scrSetTitleScrollPosition(1.0); // Set to 100% far right (title logo)
+titlePositionX = 0;
+creditsPositionX = room_width;
+
+scrSetTitleScrollPosition(titlePositionX/room_width);

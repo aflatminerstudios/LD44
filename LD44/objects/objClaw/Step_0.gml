@@ -14,6 +14,12 @@ if (scrHeldUp()) {
   y -= change;
 }
 
+var bottom = room_height - sprite_height/2;
+
+if (y >= bottom) {
+  y = bottom;
+}
+
 
 var top = parent.y + parent.sprite_height / 2;
 //Check if at top

@@ -1,6 +1,18 @@
 /// @description Movement
 var dist = objDock.x - x;
+/*
+var len = array_length_1d(prevSpeed);
 
+for (var i = 0; i < min(20, len) - 1; i++) {
+  prevSpeed[i] = prevSpeed[i + 1];
+}
+
+if (len < 20) {
+  prevSpeed[len] = curSpeed;
+} else {
+  prevSpeed[19] = curSpeed; 
+}
+*/
 if (!docked) {
   //Movement can happen if not docked
   if (scrHeldLeft()) {
@@ -10,7 +22,7 @@ if (!docked) {
   if (scrHeldRight()) {
     curSpeed += accel; 
     image_xscale = -1; 
-  }
+  }  
 
   curSpeed = clamp(curSpeed, maxSpeed * -1, maxSpeed);
   x += curSpeed;

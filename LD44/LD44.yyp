@@ -282,7 +282,7 @@
             "Key": "58d7c688-3557-4b3a-9cb5-8f86ed69b306",
             "Value": {
                 "id": "f93ab3f9-a202-47ce-951b-5bfba8e87ab9",
-                "resourcePath": "objects\/objMoney\/objMoney.yy",
+                "resourcePath": "objects\\objMoney\\objMoney.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -292,6 +292,14 @@
                 "id": "fab4f26a-c365-4cd7-8b3a-3f8753009477",
                 "resourcePath": "sprites\\sprMoney\\sprMoney.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5b584403-9e97-4f53-8c63-384ea73405b1",
+            "Value": {
+                "id": "507dd9fa-f9a6-4488-84ba-05400179eb0d",
+                "resourcePath": "objects\\objTreasureController\\objTreasureController.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -332,6 +340,14 @@
                 "id": "1381d6fe-dafd-4835-bfdc-bb2748bebd72",
                 "resourcePath": "objects\\objDock\\objDock.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "7497c619-d3ab-4ff7-869f-cbc209562e17",
+            "Value": {
+                "id": "712817dd-d963-4c11-8ec7-d3af57ab4e49",
+                "resourcePath": "views\\7497c619-d3ab-4ff7-869f-cbc209562e17.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -583,6 +599,14 @@
             }
         },
         {
+            "Key": "ab08bb82-c949-4e5f-9621-798c0518ab7c",
+            "Value": {
+                "id": "e7f0cb63-227a-4166-9c40-6cd37ffad270",
+                "resourcePath": "scripts\\scrSpawnTreasure\\scrSpawnTreasure.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "adf7b45e-7cf9-4848-b8e6-b2b86ee8847a",
             "Value": {
                 "id": "26e9c5ee-2a67-4d59-866d-74d7fd8f3577",
@@ -708,6 +732,14 @@
                 "id": "49446f29-65f8-4904-8250-7229c8ce6ad7",
                 "resourcePath": "views\/d6834155-db95-45a2-9726-8ed3c97cf8e2.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d9bbf025-da64-4bea-b166-68c5118ae3ab",
+            "Value": {
+                "id": "18118f41-fa25-43e9-8f4f-09c260005123",
+                "resourcePath": "objects\\objTestMoney\\objTestMoney.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -841,7 +873,8 @@
         "a95866e7-3ebe-434c-9885-89cb4e2053e6",
         "adf7b45e-7cf9-4848-b8e6-b2b86ee8847a",
         "536d366c-1fbd-4a90-b527-37ae510e8e31",
-        "de399fb5-2484-4e05-8e98-7d93a2ad8964"
+        "de399fb5-2484-4e05-8e98-7d93a2ad8964",
+        "ab08bb82-c949-4e5f-9621-798c0518ab7c"
     ],
     "tutorial": ""
 }

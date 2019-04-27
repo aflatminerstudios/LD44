@@ -1,1 +1,1 @@
-room_goto(roomStoryBreak);
+room_goto(roomMain);

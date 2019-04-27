@@ -4,16 +4,7 @@
     "mvc": "1.0",
     "name": "objShowCreditsButton",
     "eventList": [
-        {
-            "id": "d952bbec-2797-49a3-84fe-f5edf9e46e76",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "2b7a3245-85f6-43c3-af60-be612b909f92"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

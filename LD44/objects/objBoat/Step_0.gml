@@ -27,7 +27,6 @@ if (!docked) {
   curSpeed = clamp(curSpeed, maxSpeed * -1, maxSpeed);
   x += curSpeed;
   
-  
   //Check if entering/leaving dock/safety
   if (safe) {
     
@@ -56,5 +55,23 @@ if (!docked) {
   if (keyboard_check_pressed(vk_enter)) {
     scrBankMoney();
   }
-   
+  
+  
 } 
+
+
+
+if (curSpeed == 0 || docked || !claw.carrying) {    
+    if (sprite_index != sprBoat) {
+      sprite_index = sprBoat;    
+      with (objBoatWake) {
+        instance_destroy(); 
+      }
+    }
+  } else {
+    if (sprite_index != sprBoatPulling) {
+      sprite_index = sprBoatPulling; 
+      var wake = instance_create_depth(x, y, depth, objBoatWake);
+      wake.parent = self.id;
+    }
+  }

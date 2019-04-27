@@ -751,6 +751,14 @@
             }
         },
         {
+            "Key": "c0a54e8e-7fb3-4d6a-9d6f-04be210aa8cb",
+            "Value": {
+                "id": "c78aefa5-49eb-4285-a1e2-2ee28a08da71",
+                "resourcePath": "objects\\objBoatWake\\objBoatWake.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c4933a7a-0485-48c2-b5e4-4421652a0ba8",
             "Value": {
                 "id": "9cbef80c-6036-41cf-b92b-77ea152c3bbf",

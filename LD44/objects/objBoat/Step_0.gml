@@ -4,9 +4,11 @@ var dist = objDock.x - x;
 if (!docked) {
   if (scrHeldLeft()) {
     curSpeed -= accel;
+    image_xscale = 1; 
   }
   if (scrHeldRight()) {
     curSpeed += accel; 
+    image_xscale = -1; 
   }
 
   curSpeed = clamp(curSpeed, maxSpeed * -1, maxSpeed);

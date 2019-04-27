@@ -17,11 +17,11 @@ if (!docked) {
   //Movement can happen if not docked
   if (scrHeldLeft()) {
     curSpeed -= accel;
-    image_xscale = 1; 
+    image_xscale = -1; 
   }
   if (scrHeldRight()) {
     curSpeed += accel; 
-    image_xscale = -1; 
+    image_xscale = 1; 
   }  
 
   curSpeed = clamp(curSpeed, maxSpeed * -1, maxSpeed);

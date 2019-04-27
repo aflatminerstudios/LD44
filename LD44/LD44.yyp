@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "1cc5d0aa-8ca8-4220-b170-1384b3723d7f",
+            "Value": {
+                "id": "e0292510-f3cf-4828-bd3a-ffc4fce026e8",
+                "resourcePath": "sprites\\sprBoatWake\\sprBoatWake.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1cfd5330-1863-4583-8337-96394c1584b1",
             "Value": {
                 "id": "480a29e2-96c0-4bbb-86c5-89813b96c280",
@@ -211,6 +219,14 @@
             "Value": {
                 "id": "46481a04-12bc-4f75-98d7-ce27b227a1bd",
                 "resourcePath": "views\/3ddb10bd-eb00-4db4-b7e2-ba119eec8957.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3f0671d9-efd5-41af-b9e2-5a0146e912f7",
+            "Value": {
+                "id": "3b7e2a49-7807-4aca-b0e8-23ecf569c2be",
+                "resourcePath": "views\\3f0671d9-efd5-41af-b9e2-5a0146e912f7.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -687,6 +703,14 @@
             }
         },
         {
+            "Key": "b5959667-4355-452b-b222-3b54e223b52f",
+            "Value": {
+                "id": "04c51725-9634-4191-820f-dea6a929a40b",
+                "resourcePath": "views\\b5959667-4355-452b-b222-3b54e223b52f.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "b5dcaf1b-8dc4-4d56-ba18-c176d0b8407d",
             "Value": {
                 "id": "d9916c95-0533-48a3-8b83-5cefbc140d89",
@@ -772,6 +796,14 @@
                 "id": "6367ee43-b59c-4d82-a10f-9a5d6f1abedd",
                 "resourcePath": "scripts\/scrInitializeGame\/scrInitializeGame.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "cefd9af9-f7f6-4141-b579-877633e0e3c8",
+            "Value": {
+                "id": "b06e8a49-84df-4389-808a-79b8acb881d4",
+                "resourcePath": "sprites\\sprBoatPulling\\sprBoatPulling.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

@@ -9,3 +9,6 @@ armor = 20;
 
 claw = instance_create_depth(x + sprite_width/2, y + sprite_height/2, depth, objClaw);
 claw.parent = self.id;
+
+docked = true;
+safe = true;

@@ -2,6 +2,7 @@
 var dist = objDock.x - x;
 
 if (!docked) {
+  //Movement can happen if not docked
   if (scrHeldLeft()) {
     curSpeed -= accel;
     image_xscale = 1; 
@@ -12,8 +13,10 @@ if (!docked) {
   }
 
   curSpeed = clamp(curSpeed, maxSpeed * -1, maxSpeed);
-
   x += curSpeed;
+  
+  
+  //Check if entering/leaving dock/safety
   if (safe) {
     
     if (dist < DOCK_MENU_DISTANCE) {

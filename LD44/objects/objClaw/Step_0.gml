@@ -6,13 +6,17 @@ if (parent != noone) {
 
   //x = parent.x;
   //x += parent.curSpeed;
-  
+  if (carrying)
+    compValue = 1;
+  else
+    compValue = 0;
+    
   if (parentDist == 0) {
     //Can't collide if directly attached
     x += parent.curSpeed;         
   } else {
-    //Make sure not colliding with something in list
-    if (!scrIsCollisionList(x + parent.curSpeed, y, objMoney)) {        
+    //Make sure not colliding with something in list    
+    if (!scrIsCollisionListForClaw(x + parent.curSpeed, y, objMoney)) {        
       //Keep up with parent
       x += parent.curSpeed;//prevSpeed[15];         
     }
@@ -21,7 +25,7 @@ if (parent != noone) {
       //If not directly under parent, adjust a bit each time until directly under
       var dist = parent.x - x;
       //var per = dist / parentDist;    
-      if (!scrIsCollisionList(x + 2 * sign(dist) , y, objMoney)) {
+      if (!scrIsCollisionListForClaw(x + 2 * sign(dist) , y, objMoney)) {
         x += 2 * sign(dist); 
       }
     }
@@ -61,12 +65,21 @@ if (parent != noone) {
       y = bottom;
     }
 
+    //Check for whether to pick up treasure
+    if (!carrying) {
+      var treasure = instance_position(x, y, objMoney);
+      if (treasure != noone) {
+        treasure.parent = self.id;
+        carriedObject = treasure;
+        carrying = true;
+      }
+    }
+
 
     var top = parent.y + parent.sprite_height / 2;
     //Check if at top
     if (y <= top) {
-      y = top;
-      parentDist = 0;
+      y = top;      
       if (carrying) {
         objGameControl.money += carriedObject.value;
         with (carriedObject) {

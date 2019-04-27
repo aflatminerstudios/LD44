@@ -303,6 +303,14 @@
             }
         },
         {
+            "Key": "5c452053-2408-42f6-a9fc-afe865a3f606",
+            "Value": {
+                "id": "9acaebf6-0faf-4a89-9101-3730ba6efaf2",
+                "resourcePath": "scripts\\scrIsCollisionListForClaw\\scrIsCollisionListForClaw.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "5f5d456c-6e18-47b9-a77b-e37d24016829",
             "Value": {
                 "id": "3c4de926-1e65-4325-8e99-cc8ee41b3e43",
@@ -883,7 +891,8 @@
         "536d366c-1fbd-4a90-b527-37ae510e8e31",
         "de399fb5-2484-4e05-8e98-7d93a2ad8964",
         "ab08bb82-c949-4e5f-9621-798c0518ab7c",
-        "93ea270f-c50c-4839-a83b-6c1bd280450d"
+        "93ea270f-c50c-4839-a83b-6c1bd280450d",
+        "5c452053-2408-42f6-a9fc-afe865a3f606"
     ],
     "tutorial": ""
 }

@@ -13,3 +13,5 @@ parent = noone;
 //For when carrying an object
 carrying = false;
 carriedObject = noone;
+
+parentDist = 0;

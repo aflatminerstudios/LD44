@@ -6,4 +6,14 @@ menuItems[0] = noone;
 scrSpawnMenuItems(self.id);
 
 selectedItem = 0;
-maxItem = 4;
+maxItem = 3;
+
+
+boat = instance_create_depth(menuItems[0].x, 150, depth, objUpgradeBoat);
+claw = instance_create_depth(menuItems[0].x, 150 + boat.sprite_height/2, depth, objUpgradeClaw);
+
+boat.parent = self.id;
+claw.parent = self.id;
+
+done = false;
+leaving = false;

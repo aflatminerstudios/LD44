@@ -3,21 +3,29 @@
 
 //4 means leave with doing nothing
 
-if (scrPressedRight()) {
-  selectedItem = (selectedItem + 1) % (maxItem + 1);
-} else if (scrPressedLeft()) {
-  selectedItem = (selectedItem - 1);
-  if (selectedItem == -1) {
-    selectedItem = maxItem; 
+if (!claw.raising && !claw.dropping) {
+  if (scrPressedRight()) {
+    selectedItem = (selectedItem + 1) % (maxItem + 1);
+  } else if (scrPressedLeft()) {
+    selectedItem = (selectedItem - 1);
+    if (selectedItem == -1) {
+      selectedItem = maxItem; 
+    }
   }
+
+  boat.x = menuItems[selectedItem].x;
+  claw.x = menuItems[selectedItem].x;
 }
 
-if (keyboard_check_pressed(vk_space)) {
-  
+if (keyboard_check_pressed(vk_down)) {
+  claw.dropping = true;  
+}
+
+if (!done && claw.raising) {
   switch(selectedItem) {
     case 0:
       scrBankMoney();
-      scrLeaveDock();
+      leaving = true;
       break;
     case 1:
       scrMakePurchase(menuItems[1]);
@@ -38,4 +46,14 @@ if (keyboard_check_pressed(vk_space)) {
       scrLeaveDock();
       break;
   }
+  done = true;
+}
+
+
+if (!claw.raising) {
+  done = false; 
+}
+
+if (leaving = true && !claw.raising) {
+  scrLeaveDock();
 }

@@ -29,8 +29,9 @@ if (keyboard_check_pressed(vk_down)) {
 if (!done && claw.raising) {
   switch(selectedItem) {
     case 0:
-      scrBankMoney();
-      leaving = true;
+      scrMakePurchase(menuItems[0]);
+      canLeave = false;
+      menuItems[0].valid = false;
       break;
     case 1:
       scrMakePurchase(menuItems[1]);
@@ -41,12 +42,11 @@ if (!done && claw.raising) {
       scrMakePurchase(menuItems[2]);
       canLeave = false;
       menuItems[2].valid = false;
-      break;
+      break;    
     case 3:
-      scrMakePurchase(menuItems[3]);
-      canLeave = false;
-      menuItems[3].valid = false;
-      break;
+      scrBankMoney();
+      leaving = true;
+      break;      
     case 4:
       scrLeaveDock();
       break;

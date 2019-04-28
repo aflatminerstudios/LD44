@@ -247,6 +247,14 @@
             }
         },
         {
+            "Key": "2fb1edd5-1212-4e64-91d9-3c649128fbeb",
+            "Value": {
+                "id": "b6a957c1-b4ea-4800-b3fa-91965d0dfb97",
+                "resourcePath": "scripts\\scrAppendZeros\\scrAppendZeros.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "30dabe51-77c9-4461-8fe2-5599751a8061",
             "Value": {
                 "id": "b2b28e2c-98da-497a-9679-f23bb7172136",
@@ -260,6 +268,14 @@
                 "id": "0f885634-9286-4362-ac77-6da1007d9c4c",
                 "resourcePath": "views\/399d49aa-0a1c-4ef2-be40-4a1e9ba6d401.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3a5e451a-f972-4fed-8227-022fe78d06bc",
+            "Value": {
+                "id": "4eb1c19e-5ec0-48c1-9e5c-12fec978bc77",
+                "resourcePath": "fonts\\fontClawCam\\fontClawCam.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -540,6 +556,14 @@
                 "id": "f1cfba92-2340-42ef-ad1b-f908441dc5c8",
                 "resourcePath": "scripts\/scrGoToMainScreen\/scrGoToMainScreen.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "76d058f6-b9eb-489c-bd69-811a574b5a55",
+            "Value": {
+                "id": "a230413a-ae68-484f-86e6-cb7a2f50d219",
+                "resourcePath": "sprites\\sprClawCamLabel\\sprClawCamLabel.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1354,7 +1378,8 @@
         "a7353644-3659-4f86-9c20-48b8c62d6a53",
         "ed271090-8ea1-4bf3-8583-11b40f8eee62",
         "081ae0d4-29c0-4242-8354-a90b7c4f6253",
-        "9303d6e6-b4d4-4d39-9d4d-94cda70198d5"
+        "9303d6e6-b4d4-4d39-9d4d-94cda70198d5",
+        "2fb1edd5-1212-4e64-91d9-3c649128fbeb"
     ],
     "tutorial": ""
 }

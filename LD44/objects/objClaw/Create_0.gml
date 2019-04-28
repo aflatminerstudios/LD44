@@ -20,3 +20,6 @@ var clawLight = instance_create_layer(x, y, "BehindMidgroundInstances", objClawL
 clawLight.parentInstance = self.id;
 var sonarLight = instance_create_layer(x, y, "BehindMidgroundInstances", objSonarLight);
 sonarLight.parentInstance = self.id;
+
+//Do not animate automatically
+image_speed = 0;

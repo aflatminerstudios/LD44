@@ -46,7 +46,7 @@ if (!docked) {
     scrLeaveDock();
    }
    
-  //TODO: Take out these two:
+  //Take out these two:
   if (keyboard_check_pressed(vk_space)) {
     scrLeaveDock();
     x = objDock.x - DOCK_MENU_DISTANCE - 1;

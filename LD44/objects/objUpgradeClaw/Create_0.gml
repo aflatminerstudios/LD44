@@ -9,3 +9,6 @@ dropping = false;
 raising = false;
 
 dropSpeed = 4;
+
+//Do not animate automatically
+image_speed = 0;

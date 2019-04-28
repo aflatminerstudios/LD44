@@ -92,7 +92,7 @@ if (parent != noone) {
           instance_destroy(); 
         }
         targetIndex = carriedObject.targetIndex;
-        show_debug_message("Going to " + string(targetIndex));
+    //    show_debug_message("Going to " + string(targetIndex));
         image_index = targetIndex;
       }
     }

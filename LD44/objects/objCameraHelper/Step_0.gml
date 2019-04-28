@@ -8,7 +8,10 @@ if (claw.parentDist > 300) {
 } else {
 	shouldDrawClawInset = false;
 }
-
+var boat = instance_find(objBoat, 0);
+if (boat.docked) {
+  shouldDrawClawInset = false; 
+}
 
 var viewNum = 1;
 if(shouldDrawClawInset) {

@@ -11,7 +11,7 @@ if (r < chanceToStopAttacking) {
 } else {
   targetX = x + lengthdir_x(dist, dir);
   targetY = y + lengthdir_y(dist, dir);
-  //show_debug_message("Attacking " + string(targetX) + ", " + string(targetY));
+  show_debug_message("Attacking " + string(targetX) + ", " + string(targetY));
   alarm[2] = updateAttackTime;
 }
 

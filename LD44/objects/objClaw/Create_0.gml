@@ -13,6 +13,8 @@ parent = noone;
 //For when carrying an object
 carrying = false;
 carriedObject = noone;
+dropCount = 0;
+dropCountLimit = 10;
 
 parentDist = 0;
 minDistance = 0;

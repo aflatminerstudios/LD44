@@ -5,11 +5,12 @@
 targetX = 0;
 targetY = 0;
 chanceToLeave = 0.1;
+leaving = false;
 attackDistance = 300;
 chanceToStopAttacking = 0.10;
 
 attacking = false;
-attackCooldown = room_speed;
+attackCooldown = room_speed * 2;
 attackCountdown = attackCooldown;
 updateAttackTime = room_speed / 4;
 

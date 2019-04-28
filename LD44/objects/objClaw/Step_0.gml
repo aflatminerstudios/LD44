@@ -82,19 +82,23 @@ if (parent != noone) {
     }
 
     //Check for whether to pick up treasure
-    if (!carrying) {
-      var treasure = instance_position(x, y, objMoney);
-      if (treasure != noone) {
-        treasure.parent = self.id;
-        carriedObject = treasure;
-        carrying = true;
-        with (treasure.sparkles) {
-          instance_destroy(); 
+    if (dropCount >= dropCountLimit) {
+      if (!carrying) {
+        var treasure = instance_position(x, y, objMoney);
+        if (treasure != noone) {
+          treasure.parent = self.id;
+          carriedObject = treasure;
+          carrying = true;
+          with (treasure.sparkles) {
+            instance_destroy(); 
+          }
+          targetIndex = carriedObject.targetIndex;
+      //    show_debug_message("Going to " + string(targetIndex));
+          image_index = targetIndex;
         }
-        targetIndex = carriedObject.targetIndex;
-    //    show_debug_message("Going to " + string(targetIndex));
-        image_index = targetIndex;
       }
+    } else {
+      dropCount++; 
     }
     
 

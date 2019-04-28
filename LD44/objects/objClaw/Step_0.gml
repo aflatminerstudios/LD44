@@ -29,6 +29,10 @@ if (parent != noone) {
         x += 2 * sign(dist); 
       }
     }
+    
+    if (abs(x - parent.x) < 5) {
+      x = parent.x; 
+    }
   }
   
   //Adjust distance to parent

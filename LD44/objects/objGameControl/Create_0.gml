@@ -12,3 +12,11 @@ clawLevel = 1;
 boatLevel = 1;
 timeLevel = 1;
 
+birdSpawnMin = room_speed * 3;
+birdSpawnMax = room_speed * 10;
+
+fishSpawnMin = room_speed * 3;
+fishSpawnMax = room_speed * 10;
+
+alarm[0] = irandom_range(birdSpawnMin, birdSpawnMax);
+alarm[1] = irandom_range(fishSpawnMin, fishSpawnMax);

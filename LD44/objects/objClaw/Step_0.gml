@@ -1,7 +1,6 @@
 /// @description Movement each step
 
 // TODO: temporary: keep pace with parent
-
 if (parent != noone) {
 
   //x = parent.x;

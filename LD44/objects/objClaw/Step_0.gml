@@ -63,6 +63,7 @@ if (parent != noone) {
 
     if (y >= bottom) {
       y = bottom;
+      parentDist = point_distance(x, y, parent.x, parent.y);
     }
 
     //Check for whether to pick up treasure

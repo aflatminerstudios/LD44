@@ -5,10 +5,12 @@ var menuItem = argument0;
 
 if (!menuItem.valid)
   return;
-  
+
+objGameControl.money -= menuItem.price;
+
 switch(menuItem.itemDesc) {
   case "Claw":
-    scrUpgradeClaw();
+    scrUpgradeClaw();    
     break;
   case "Boat":
     scrUpgradeBoat();

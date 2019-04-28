@@ -6,6 +6,8 @@ draw_self();
 if (parent != noone) {
   
   var color = draw_get_color();
+  var align = draw_get_halign();
+  draw_set_halign(fa_center);
   var blendColor = c_white;
   if (parent.selectedItem == itemNum) {  
     blendColor = c_red;
@@ -27,6 +29,11 @@ if (parent != noone) {
   } else {
     draw_text(x, y, itemDesc); 
   }
+  
+  if (price > 0) {
+    draw_text(x, y + 50, "$" + string(price));
+  }
 
+  draw_set_halign(align);
   draw_set_color(color);
 }

@@ -8,7 +8,7 @@ var yc = argument[1];
 
 for (var i = 2; i < argument_count; i++) {  
  
-  if (argument[i].object_index != objMoney) {
+  if (instance_number(argument[i]) > 0 && argument[i].object_index != objMoney) {
     if (place_meeting(xc, yc, argument[i])) {
       return true; 
     }

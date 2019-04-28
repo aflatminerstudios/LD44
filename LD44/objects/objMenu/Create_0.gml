@@ -17,3 +17,4 @@ claw.parent = self.id;
 
 done = false;
 leaving = false;
+canLeave = true;

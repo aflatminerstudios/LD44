@@ -15,6 +15,7 @@ carrying = false;
 carriedObject = noone;
 
 parentDist = 0;
+minDistance = 0;
 
 var clawLight = instance_create_layer(x, y, "BehindMidgroundInstances", objClawLight);
 clawLight.parentInstance = self.id;

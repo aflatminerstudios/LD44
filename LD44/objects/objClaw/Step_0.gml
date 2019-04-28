@@ -15,7 +15,7 @@ if (parent != noone) {
     x += parent.curSpeed;         
   } else {
     //Make sure not colliding with something in list    
-    if (!scrIsCollisionListForClaw(x + parent.curSpeed, y, objMoney)) {        
+    if (!scrIsCollisionListForClaw(x + parent.curSpeed, y, objMoney, objAnnoyanceParent)) {        
       //Keep up with parent
       x += parent.curSpeed;//prevSpeed[15];         
     }
@@ -24,7 +24,7 @@ if (parent != noone) {
       //If not directly under parent, adjust a bit each time until directly under
       var dist = parent.x - x;
       //var per = dist / parentDist;    
-      if (!scrIsCollisionListForClaw(x + 2 * sign(dist) , y, objMoney)) {
+      if (!scrIsCollisionListForClaw(x + 2 * sign(dist) , y, objMoney, objAnnoyanceParent)) {
         x += 2 * sign(dist); 
       }
     }
@@ -50,7 +50,7 @@ if (parent != noone) {
 
     //calculate y from x coordinate and distance from parent
     var calc = (x - parent.x) / parentDist;
-    var minDistance = parent.sprite_height/2 + sprite_height/2;
+    minDistance = parent.sprite_height/2 + sprite_height/2;
     if (parentDist <= minDistance) {
       //At top
       parentDist = minDistance;
@@ -96,7 +96,7 @@ if (parent != noone) {
         image_index = targetIndex;
       }
     }
-
+    
 
     var top = parent.y + parent.sprite_height / 2;
     //Check if at top

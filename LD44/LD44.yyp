@@ -232,7 +232,18 @@
             "Key": "139177b4-7451-4845-a94b-33a6eedb5e06",
             "Value": {
                 "id": "ba67d9ce-fef8-4d78-96ac-5b32c47bee52",
-                "resourcePath": "sprites\\sprGoatIdol\\sprGoatIdol.yy",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sprGoatIdol\/sprGoatIdol.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -294,10 +305,40 @@
             }
         },
         {
+            "Key": "1b05ac01-83c9-4bc8-b500-f15382a48c77",
+            "Value": {
+                "id": "71988179-bcf6-4ea7-bb50-70e4e1f356a8",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/objSonarLight\/objSonarLight.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1c30301d-7c3e-4bfe-895d-d43efc7ad85b",
             "Value": {
                 "id": "4d4df83a-5c2d-42b0-994d-b99537beed6c",
-                "resourcePath": "objects\\objUpgradeBoat\\objUpgradeBoat.yy",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/objUpgradeBoat\/objUpgradeBoat.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -815,6 +856,25 @@
             }
         },
         {
+            "Key": "56559342-0c2a-4c01-8103-72990e107b45",
+            "Value": {
+                "id": "4eab20b3-e389-4afe-9187-9610619b0cb0",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sprSonarLight\/sprSonarLight.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "56f4a052-022e-44fe-83e4-4e0807b07046",
             "Value": {
                 "id": "650d888d-328f-4782-a3a9-d15e23b6f889",
@@ -932,7 +992,18 @@
             "Key": "5fe8f48d-1ff8-479e-a96e-2b58dc2bbd4b",
             "Value": {
                 "id": "d8701b1f-1902-49aa-bf90-19411701d085",
-                "resourcePath": "objects\\objTire\\objTire.yy",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/objTire\/objTire.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1111,7 +1182,18 @@
             "Key": "7ebedf78-3dd7-47ed-b9ea-0708628c561b",
             "Value": {
                 "id": "b5eb89e9-be2d-4919-860b-44a3071adab8",
-                "resourcePath": "objects\\objUpgradeClaw\\objUpgradeClaw.yy",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/objUpgradeClaw\/objUpgradeClaw.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1575,7 +1657,18 @@
             "Key": "a1a75374-8435-4478-af46-042838342952",
             "Value": {
                 "id": "bc424904-2073-4839-8eb6-8c041ebbf21e",
-                "resourcePath": "objects\\objGoatIdol\\objGoatIdol.yy",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/objGoatIdol\/objGoatIdol.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -2571,7 +2664,18 @@
             "Key": "ee44a3f9-3118-4dd7-867d-c118a246bff7",
             "Value": {
                 "id": "3548c00c-b342-461c-9b3b-af74897bf2d6",
-                "resourcePath": "sprites\\sprTire\\sprTire.yy",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sprTire\/sprTire.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2648,6 +2752,25 @@
                     "default"
                 ],
                 "resourcePath": "views\/f86c21b3-4b70-4673-801f-8a7de7bb6922.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "fa7e6892-294f-4895-b248-7d0a7a742bda",
+            "Value": {
+                "id": "b495bc1a-f277-49ce-92a9-151583e20f64",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "views\/fa7e6892-294f-4895-b248-7d0a7a742bda.yy",
                 "resourceType": "GMFolder"
             }
         },

@@ -16,5 +16,7 @@ carriedObject = noone;
 
 parentDist = 0;
 
-clawLight = instance_create_layer(x, y, "BehindMidgroundInstances", objClawLight);
+var clawLight = instance_create_layer(x, y, "BehindMidgroundInstances", objClawLight);
 clawLight.parentInstance = self.id;
+var sonarLight = instance_create_layer(x, y, "BehindMidgroundInstances", objSonarLight);
+sonarLight.parentInstance = self.id;

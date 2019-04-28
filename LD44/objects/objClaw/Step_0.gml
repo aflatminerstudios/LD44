@@ -76,6 +76,9 @@ if (parent != noone) {
         treasure.parent = self.id;
         carriedObject = treasure;
         carrying = true;
+        with (treasure.sparkles) {
+          instance_destroy(); 
+        }
       }
     }
 

@@ -134,6 +134,7 @@
             "name": "BackgroundAssets",
             "id": "d0e933a9-989b-4db4-8f2e-4126f66798c1",
             "assets": [
+{"__type": "GMRSpriteGraphic_Model:#YoYoStudio.MVCFormat","name": "graphic_3E0231C1","id": "f58efaee-83cf-4156-a57f-c360d7b29ffb","animationFPS": 15,"animationSpeedType": "0","colour": { "Value": 4294967295 },"frameIndex": 0,"ignore": false,"inheritItemSettings": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRSpriteGraphic","rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","spriteId": "b207c519-2032-4b7f-8880-b6d0d3bdf230","userdefined_animFPS": false,"x": 0,"y": 0},
 {"__type": "GMRSpriteGraphic_Model:#YoYoStudio.MVCFormat","name": "graphic_1459223E","id": "3ab384ed-02c7-4d51-b77e-f53c30934cce","animationFPS": 15,"animationSpeedType": "0","colour": { "Value": 4294967295 },"frameIndex": 0,"ignore": false,"inheritItemSettings": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRSpriteGraphic","rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","spriteId": "e2403a7e-8276-4717-8a6e-ba8338b126f5","userdefined_animFPS": false,"x": 0,"y": 0},
 {"__type": "GMRSpriteGraphic_Model:#YoYoStudio.MVCFormat","name": "graphic_36D603C5","id": "d2b9e9b5-d84e-4f7f-b4ad-a6f346602e13","animationFPS": 5,"animationSpeedType": "0","colour": { "Value": 4294967295 },"frameIndex": 0,"ignore": false,"inheritItemSettings": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRSpriteGraphic","rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","spriteId": "c3a77032-c81a-45d6-b561-320e201625ed","userdefined_animFPS": false,"x": 3700,"y": 80}
             ],
@@ -181,7 +182,7 @@
             "m_serialiseFrozen": false,
             "modelName": "GMRBackgroundLayer",
             "mvc": "1.0",
-            "spriteId": "b207c519-2032-4b7f-8880-b6d0d3bdf230",
+            "spriteId": "00000000-0000-0000-0000-000000000000",
             "stretch": true,
             "userdefined_animFPS": false,
             "userdefined_depth": false,

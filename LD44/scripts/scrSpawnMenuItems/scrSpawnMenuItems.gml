@@ -11,8 +11,9 @@ with (menu) {
   menuItems[3] = instance_create_depth(x + 586, y + 238, depth - 1, objMenuItem);
   
   //populate them
-  menuItems[0].itemDesc = "Bank";
-  menuItems[0].price = -1;
+  
+  menuItems[0].itemDesc = "Time";
+  menuItems[0].price = 5 * objGameControl.timeLevel;
   menuItems[0].parent = menu;
   menuItems[0].itemNum = 0;
   
@@ -26,8 +27,9 @@ with (menu) {
   menuItems[2].parent = menu;
   menuItems[2].itemNum = 2;
   
-  menuItems[3].itemDesc = "Time";
-  menuItems[3].price = 5 * objGameControl.timeLevel;
+  
+  menuItems[3].itemDesc = "Bank";
+  menuItems[3].price = -1;
   menuItems[3].parent = menu;
   menuItems[3].itemNum = 3;
 }

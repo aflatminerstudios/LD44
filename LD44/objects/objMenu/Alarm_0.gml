@@ -16,5 +16,11 @@ with (menuItems[3]) {
   instance_destroy(); 
 }
 
+with (boat) {
+  instance_destroy(); 
+}
+with (claw) {
+  instance_destroy(); 
+}
 
 instance_destroy();

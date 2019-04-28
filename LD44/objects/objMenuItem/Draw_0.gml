@@ -36,4 +36,7 @@ if (parent != noone) {
 
   draw_set_halign(align);
   draw_set_color(color);
+  
+  
+  
 }

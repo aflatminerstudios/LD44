@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "09ac1b01-f9e4-40ad-958f-4292aa74e336",
+            "Value": {
+                "id": "663c825b-001c-45a9-8388-7d4304f0df17",
+                "resourcePath": "sprites\\sprBirdFlying\\sprBirdFlying.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "102e8b67-4cfd-453c-a70c-f0520a7d736c",
             "Value": {
                 "id": "d0715d7c-da8a-4cbf-8a11-c98a3dd83b41",
@@ -271,6 +279,14 @@
             }
         },
         {
+            "Key": "414e5357-597a-4cd9-9c15-361322dec571",
+            "Value": {
+                "id": "b9dab9e7-207d-489c-9929-934c6a933593",
+                "resourcePath": "sprites\\sprFishBG\\sprFishBG.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "41e81b65-c494-4f19-9297-347f0494d3fc",
             "Value": {
                 "id": "4c23f0e7-e0e8-433b-b04a-4b8e48467b82",
@@ -428,6 +444,14 @@
                 "id": "9acaebf6-0faf-4a89-9101-3730ba6efaf2",
                 "resourcePath": "scripts\/scrIsCollisionListForClaw\/scrIsCollisionListForClaw.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "5e14ccb1-2c1f-4748-b92d-fb79b33af629",
+            "Value": {
+                "id": "e2d3ac11-90d9-406d-9a9e-2917c6cdf0d2",
+                "resourcePath": "objects\\objFishBG\\objFishBG.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -823,6 +847,14 @@
             }
         },
         {
+            "Key": "ad051abd-311c-4094-a1b7-092e5b99a34e",
+            "Value": {
+                "id": "e410676d-01a8-4e49-a914-77bf6b6f87b1",
+                "resourcePath": "objects\\objBirdFlying\\objBirdFlying.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "adf7b45e-7cf9-4848-b8e6-b2b86ee8847a",
             "Value": {
                 "id": "26e9c5ee-2a67-4d59-866d-74d7fd8f3577",
@@ -835,6 +867,14 @@
             "Value": {
                 "id": "1a459377-0ebc-4b00-ad62-f9c815bd3be6",
                 "resourcePath": "sprites\/sprMenuBG\/sprMenuBG.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b207c519-2032-4b7f-8880-b6d0d3bdf230",
+            "Value": {
+                "id": "e2c13b5c-329b-4cbf-9e84-02e76f9d2350",
+                "resourcePath": "sprites\\sprSky\\sprSky.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1092,6 +1132,14 @@
                 "id": "6b086c08-4a26-4fd4-b2a8-8c7a31cab644",
                 "resourcePath": "objects\\objSparkles\\objSparkles.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e2403a7e-8276-4717-8a6e-ba8338b126f5",
+            "Value": {
+                "id": "45e21807-4764-4c1b-9bc7-ec6c63f1d6c3",
+                "resourcePath": "sprites\\sprWaterBG\\sprWaterBG.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

@@ -101,8 +101,7 @@ if (parent != noone) {
     var top = parent.y + parent.sprite_height / 2;
     //Check if at top
     if (y <= top) {
-      y = top;      
-          
+      y = top;                
     }
   }
 }

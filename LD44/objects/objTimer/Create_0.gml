@@ -1,6 +1,6 @@
 /// @description Initialize variables, etc.
 
-baseTimer = 200;
+baseTimer = 100;
 rangeMin = -100;
 rangeMax = 100;
 

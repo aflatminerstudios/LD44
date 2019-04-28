@@ -1,5 +1,7 @@
 /// scrEndGame()
 
 
-show_message("Game over! You earned $" + string(objGameControl.bankedMoney));
-room_restart();
+var gc = instance_create_depth(0, 0, -10000, objGameOverController);
+gc.money = objGameControl.bankedMoney;
+room_goto(roomGameOver);
+

@@ -24,7 +24,7 @@ if (!claw.raising && !claw.dropping) {
   }
 }
 
-if (keyboard_check_pressed(vk_down)) {
+if (scrPressedDown() || keyboard_check_pressed(vk_space)) {
   claw.dropping = true;  
 }
 

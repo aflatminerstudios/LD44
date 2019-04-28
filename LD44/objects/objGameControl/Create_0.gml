@@ -11,3 +11,4 @@ bankedMoney = 0;
 clawLevel = 1;
 boatLevel = 1;
 timeLevel = 1;
+

@@ -12,3 +12,8 @@ titlePositionX = 0;
 creditsPositionX = room_width;
 
 scrSetTitleScrollPosition(titlePositionX/room_width);
+
+//Make sure game over controller is destroyed
+with (objGameOverController) {
+  instance_destroy(); 
+}

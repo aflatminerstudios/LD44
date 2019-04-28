@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "1c30301d-7c3e-4bfe-895d-d43efc7ad85b",
+            "Value": {
+                "id": "4d4df83a-5c2d-42b0-994d-b99537beed6c",
+                "resourcePath": "objects\\objUpgradeBoat\\objUpgradeBoat.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1cc5d0aa-8ca8-4220-b170-1384b3723d7f",
             "Value": {
                 "id": "e0292510-f3cf-4828-bd3a-ffc4fce026e8",
@@ -460,6 +468,14 @@
                 "id": "6f247a6f-45a7-4837-b7d5-a171e1fafdc8",
                 "resourcePath": "scripts\/scrPressedUp\/scrPressedUp.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "7ebedf78-3dd7-47ed-b9ea-0708628c561b",
+            "Value": {
+                "id": "b5eb89e9-be2d-4919-860b-44a3071adab8",
+                "resourcePath": "objects\\objUpgradeClaw\\objUpgradeClaw.yy",
+                "resourceType": "GMObject"
             }
         },
         {

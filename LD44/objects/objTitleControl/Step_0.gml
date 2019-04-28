@@ -6,9 +6,10 @@ if (keyboard_check_pressed(ord("I"))) {
 } else if (keyboard_check_pressed(vk_right) && !self.isScrolling) {
   scrShowCredits(); 
 } else if (keyboard_check_pressed(vk_left) && !self.isScrolling) {
-  scrHideCredits(); 
-} else if (keyboard_check_pressed(vk_anykey)) {
-  //scrGoToMainScreen();
+	if(self.viewTarget == "credits")
+		scrHideCredits(); 
+	else
+		scrGoToMainScreen();
 }
 
 if(self.viewTarget != self.oldViewTarget) {

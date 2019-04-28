@@ -13,6 +13,8 @@ if (!claw.raising && !claw.dropping) {
       if (canLeave) {
         leaving = true;
         scrLeaveDock();
+      } else {
+      selectedItem = maxItem; 
       }
     }
   }

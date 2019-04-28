@@ -1084,6 +1084,14 @@
             }
         },
         {
+            "Key": "6f01661c-fdec-4721-96f5-9aead8529756",
+            "Value": {
+                "id": "543dc175-aa55-468f-8888-42f33112025e",
+                "resourcePath": "sprites\\sprSparkle\\sprSparkle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "721fc80c-5dec-4a9e-b84c-fd262fd2cbe3",
             "Value": {
                 "id": "1381d6fe-dafd-4835-bfdc-bb2748bebd72",
@@ -2468,6 +2476,14 @@
                 ],
                 "resourcePath": "scripts\/scrBankMoney\/scrBankMoney.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "de456c55-f005-44ce-8805-44206c63ac4f",
+            "Value": {
+                "id": "6b086c08-4a26-4fd4-b2a8-8c7a31cab644",
+                "resourcePath": "objects\\objSparkles\\objSparkles.yy",
+                "resourceType": "GMObject"
             }
         },
         {

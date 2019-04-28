@@ -7,7 +7,7 @@ accel = 0.1;
 
 armor = 20;
 
-claw = instance_create_depth(x, y + sprite_height/2, depth, objClaw);
+claw = instance_create_depth(x, y + sprite_height/2, depth-1, objClaw);
 claw.parent = self.id;
 
 //for claw calculations

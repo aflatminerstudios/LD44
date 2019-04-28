@@ -975,11 +975,27 @@
             }
         },
         {
+            "Key": "c0cd2ed9-4da3-498c-8a96-7c342787c72a",
+            "Value": {
+                "id": "ef69c1dc-1f96-4624-b7ee-3604ded96889",
+                "resourcePath": "views\\c0cd2ed9-4da3-498c-8a96-7c342787c72a.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "c20becf8-d12c-4604-acc1-f212bee3f1e7",
             "Value": {
                 "id": "d559157e-babc-4469-8eb7-1be2c9d123d7",
                 "resourcePath": "scripts\/scrMakePurchase\/scrMakePurchase.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c3a77032-c81a-45d6-b561-320e201625ed",
+            "Value": {
+                "id": "2820b663-2965-4d0a-8b5c-89d3d223257d",
+                "resourcePath": "sprites\\sprSafeLight\\sprSafeLight.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

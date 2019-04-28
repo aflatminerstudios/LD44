@@ -6,6 +6,7 @@
 var xc = argument[0];
 var yc = argument[1];
 
+//Check each argument for collision
 for (var i = 2; i < argument_count; i++) {  
   if (place_meeting(xc, yc, argument[i])) {
     return true; 

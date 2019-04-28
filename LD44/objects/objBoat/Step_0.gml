@@ -42,7 +42,7 @@ if (!docked) {
   }
 } else {
   //If in dock
-   if (dist > DOCK_MENU_DISTANCE) {
+  /* if (dist > DOCK_MENU_DISTANCE) {
     scrLeaveDock();
    }
    
@@ -54,7 +54,7 @@ if (!docked) {
   }
   if (keyboard_check_pressed(vk_enter)) {
     scrBankMoney();
-  }
+  }*/
   
   
 } 

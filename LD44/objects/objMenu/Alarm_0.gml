@@ -1,0 +1,20 @@
+/// @description Instance Destroy
+// You can write your code in this editor
+
+with (menuItems[0]) {
+  instance_destroy(); 
+}
+with (menuItems[1]) {
+  instance_destroy(); 
+}
+
+with (menuItems[2]) {
+  instance_destroy(); 
+}
+
+with (menuItems[3]) {
+  instance_destroy(); 
+}
+
+
+instance_destroy();

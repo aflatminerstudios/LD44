@@ -14,5 +14,5 @@ claw.parent = self.id;
 prevSpeed[0] = 0;
 
 
-docked = true;
+docked = false;
 safe = true;

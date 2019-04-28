@@ -7,5 +7,3 @@ var yC = irandom_range(350, room_height - 300);
 
 instance_create_layer(-300, yC, "MidgroundInstances", objFishBG);
 
-show_debug_message("Spawning fish at " + string(yC));
-

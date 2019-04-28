@@ -11,6 +11,8 @@ bankedMoney = 0;
 clawLevel = 1;
 boatLevel = 1;
 timeLevel = 1;
+clawLightLevel = 1;
+
 
 birdSpawnMin = room_speed * 3;
 birdSpawnMax = room_speed * 10;

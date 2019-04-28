@@ -679,6 +679,14 @@
             }
         },
         {
+            "Key": "9303d6e6-b4d4-4d39-9d4d-94cda70198d5",
+            "Value": {
+                "id": "9e44aa6a-457b-4362-a9d7-488c8796d2ab",
+                "resourcePath": "scripts\\scrUpgradeClawLight\\scrUpgradeClawLight.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "934375c7-cabd-4329-a9c1-b781c6897784",
             "Value": {
                 "id": "4552b967-cc7f-4109-b194-5dcccdc52108",
@@ -1345,7 +1353,8 @@
         "536d366c-1fbd-4a90-b527-37ae510e8e31",
         "a7353644-3659-4f86-9c20-48b8c62d6a53",
         "ed271090-8ea1-4bf3-8583-11b40f8eee62",
-        "081ae0d4-29c0-4242-8354-a90b7c4f6253"
+        "081ae0d4-29c0-4242-8354-a90b7c4f6253",
+        "9303d6e6-b4d4-4d39-9d4d-94cda70198d5"
     ],
     "tutorial": ""
 }

@@ -17,10 +17,18 @@ with (menu) {
   menuItems[0].parent = menu;
   menuItems[0].itemNum = 0;
   
-  menuItems[1].itemDesc = "Claw";
-  menuItems[1].price = 5 * objGameControl.clawLevel;
-  menuItems[1].parent = menu;
-  menuItems[1].itemNum = 1;
+  
+  if (objGameControl.clawLightLevel == 1 && objGameControl.clawLevel == 1) {
+    menuItems[1].itemDesc = "Claw Light";
+    menuItems[1].price = 5 * objGameControl.clawLightLevel;
+    menuItems[1].parent = menu;
+    menuItems[1].itemNum = 1;
+  } else {
+    menuItems[1].itemDesc = "Claw";
+    menuItems[1].price = 5 * objGameControl.clawLevel;
+    menuItems[1].parent = menu;
+    menuItems[1].itemNum = 1;
+  }
   
   menuItems[2].itemDesc = "Boat";
   menuItems[2].price = 5 * objGameControl.boatLevel;

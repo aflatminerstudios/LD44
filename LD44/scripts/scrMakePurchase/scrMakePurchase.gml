@@ -18,6 +18,9 @@ switch(menuItem.itemDesc) {
   case "Time":
     scrUpgradeTime();
     break;
+  case "Claw Light":
+    scrUpgradeClawLight();
+    break;
   default:
     show_debug_message("Invalid purchase attempt");
 }

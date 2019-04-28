@@ -5,7 +5,7 @@ if (parent != noone) {
   x = parent.x;
   y = parent.y;
 } else {
-  //TODO: Change this to deal with terrain
+  //TODO: Change this to deal with terrain instead of bottom of the screen
   if (y < room_height - sprite_height/2) {
     y += dropSpeed;
   } else {

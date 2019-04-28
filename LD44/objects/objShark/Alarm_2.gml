@@ -6,13 +6,18 @@ var dir = point_direction(x, y, claw.x, claw.y);
 var dist = distance_to_object(claw) + 25;
 var r = random(1);
 
+//If random chance says so, stop attacking
 if (r < chanceToStopAttacking) {
-  alarm[0] = 1; 
+  //show_debug_message("No longer attacking");
+  attackCountdown = 0;
+  alarm[0] = 1;   
 } else {
+  //Otherwise target a spot just on the other side of claw
   targetX = x + lengthdir_x(dist, dir);
   targetY = y + lengthdir_y(dist, dir);
-  show_debug_message("Attacking " + string(targetX) + ", " + string(targetY));
+  //show_debug_message("Attacking " + string(targetX) + ", " + string(targetY));
   alarm[2] = updateAttackTime;
+  alarm[0] = -5;
 }
 
 //show_debug_message("Claw at " + string(claw.x) + ", " + string(claw.y));

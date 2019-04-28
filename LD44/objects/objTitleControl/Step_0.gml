@@ -33,7 +33,7 @@ if(self.isScrolling) {
 	}
 
 	// Adjust the parallax
-
+  
 
 	// Update the scroll time
 	if(self.scrollTime <= 0)

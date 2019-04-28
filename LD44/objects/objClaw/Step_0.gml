@@ -5,11 +5,11 @@ if (parent != noone) {
 
   //x = parent.x;
   //x += parent.curSpeed;
-  if (carrying)
+ /* if (carrying)
     compValue = 1;
   else
     compValue = 0;
-    
+   */ 
   if (parentDist == 0) {
     //Can't collide if directly attached
     x += parent.curSpeed;         
@@ -29,9 +29,10 @@ if (parent != noone) {
       }
     }
     
-    if (abs(x - parent.x) < 5) {
+    //This fixes stuttering, but makes it so you run through treasures
+    /*if (abs(x - parent.x) < 5) {
       x = parent.x; 
-    }
+    }*/
   }
   
   //Adjust distance to parent

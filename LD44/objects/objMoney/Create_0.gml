@@ -8,3 +8,5 @@ parent = noone;
 
 sparkles = instance_create_depth(x, y - sprite_height / 2, depth + 1, objSparkles);
 sparkles.parent = self.id;
+
+targetIndex = 3;

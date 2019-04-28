@@ -23,3 +23,4 @@ sonarLight.parentInstance = self.id;
 
 //Do not animate automatically
 image_speed = 0;
+targetIndex = 0;

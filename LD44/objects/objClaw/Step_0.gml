@@ -61,10 +61,11 @@ if (parent != noone) {
         }
         carriedObject = noone;
         carrying = false;
+        image_index = 0;
       }
-      y = parent.y + parent.sprite_height / 2 + sprite_height/2;      
+      y = parent.y + minDistance;      
     } else if (calc <= -1 || calc >= 1) {
-      y = parent.y + parent.sprite_height / 2 + sprite_height/2;
+      y = parent.y + minDistance;
       x = parent.x + (parentDist * sign(calc));
     } else {      
       //show_debug_message("Getting arccos of " + string(calc));
@@ -90,6 +91,9 @@ if (parent != noone) {
         with (treasure.sparkles) {
           instance_destroy(); 
         }
+        targetIndex = carriedObject.targetIndex;
+        show_debug_message("Going to " + string(targetIndex));
+        image_index = targetIndex;
       }
     }
 

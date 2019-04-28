@@ -10,3 +10,5 @@ sparkles = instance_create_depth(x, y - sprite_height / 2, depth + 1, objSparkle
 sparkles.parent = self.id;
 
 targetIndex = 3;
+
+dropSpeed = 5;

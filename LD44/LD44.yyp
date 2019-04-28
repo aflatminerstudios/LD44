@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "132bd16a-8fa7-435f-ac89-ac51289c0c57",
+            "Value": {
+                "id": "b68e7fb4-1052-4527-8ef1-8a4e58464171",
+                "resourcePath": "views\\132bd16a-8fa7-435f-ac89-ac51289c0c57.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "139177b4-7451-4845-a94b-33a6eedb5e06",
             "Value": {
                 "id": "ba67d9ce-fef8-4d78-96ac-5b32c47bee52",
@@ -260,6 +268,14 @@
                 "id": "b2b28e2c-98da-497a-9679-f23bb7172136",
                 "resourcePath": "scripts\/scrHideCredits\/scrHideCredits.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "380e5eb7-22de-4c79-aeb5-8bcaa12e14bc",
+            "Value": {
+                "id": "ae750ffb-7346-4758-aeeb-55fc5564e372",
+                "resourcePath": "sprites\\sprShark\\sprShark.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1119,6 +1135,14 @@
             }
         },
         {
+            "Key": "ce7c9752-2461-40b3-9bf8-395b4a1581cd",
+            "Value": {
+                "id": "43862df0-2e82-4274-9337-a8839ac15be6",
+                "resourcePath": "objects\\objAnnoyanceParent\\objAnnoyanceParent.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "cefd9af9-f7f6-4141-b579-877633e0e3c8",
             "Value": {
                 "id": "b06e8a49-84df-4389-808a-79b8acb881d4",
@@ -1243,6 +1267,14 @@
             "Value": {
                 "id": "92ccb84a-db44-4a65-bee1-c88cab7699a0",
                 "resourcePath": "objects\/objSoundController\/objSoundController.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "eceefed0-d78a-4097-bca7-5d5d329f89f1",
+            "Value": {
+                "id": "34aca8aa-d97b-44e1-9270-7763db281b59",
+                "resourcePath": "objects\\objShark\\objShark.yy",
                 "resourceType": "GMObject"
             }
         },

@@ -15,7 +15,7 @@ if (parent != noone) {
     x += parent.curSpeed;         
   } else {
     //Make sure not colliding with something in list    
-    if (!scrIsCollisionListForClaw(x + parent.curSpeed, y, objMoney)) {        
+    if (!scrIsCollisionListForClaw(x + parent.curSpeed, y, objMoney, objAnnoyanceParent)) {        
       //Keep up with parent
       x += parent.curSpeed;//prevSpeed[15];         
     }
@@ -24,7 +24,7 @@ if (parent != noone) {
       //If not directly under parent, adjust a bit each time until directly under
       var dist = parent.x - x;
       //var per = dist / parentDist;    
-      if (!scrIsCollisionListForClaw(x + 2 * sign(dist) , y, objMoney)) {
+      if (!scrIsCollisionListForClaw(x + 2 * sign(dist) , y, objMoney, objAnnoyanceParent)) {
         x += 2 * sign(dist); 
       }
     }
@@ -50,7 +50,7 @@ if (parent != noone) {
 
     //calculate y from x coordinate and distance from parent
     var calc = (x - parent.x) / parentDist;
-    var minDistance = parent.sprite_height/2 + sprite_height/2;
+    minDistance = parent.sprite_height/2 + sprite_height/2;
     if (parentDist <= minDistance) {
       //At top
       parentDist = minDistance;
@@ -82,21 +82,25 @@ if (parent != noone) {
     }
 
     //Check for whether to pick up treasure
-    if (!carrying) {
-      var treasure = instance_position(x, y, objMoney);
-      if (treasure != noone) {
-        treasure.parent = self.id;
-        carriedObject = treasure;
-        carrying = true;
-        with (treasure.sparkles) {
-          instance_destroy(); 
+    if (dropCount >= dropCountLimit) {
+      if (!carrying) {
+        var treasure = instance_position(x, y, objMoney);
+        if (treasure != noone) {
+          treasure.parent = self.id;
+          carriedObject = treasure;
+          carrying = true;
+          with (treasure.sparkles) {
+            instance_destroy(); 
+          }
+          targetIndex = carriedObject.targetIndex;
+      //    show_debug_message("Going to " + string(targetIndex));
+          image_index = targetIndex;
         }
-        targetIndex = carriedObject.targetIndex;
-    //    show_debug_message("Going to " + string(targetIndex));
-        image_index = targetIndex;
       }
+    } else {
+      dropCount++; 
     }
-
+    
 
     var top = parent.y + parent.sprite_height / 2;
     //Check if at top

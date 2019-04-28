@@ -20,5 +20,10 @@ birdSpawnMax = room_speed * 10;
 fishSpawnMin = room_speed * 3;
 fishSpawnMax = room_speed * 10;
 
+annoySpawnMin = room_speed * 3;
+annoySpawnMax = room_speed * 10;
+maxSharks = 4;
+
 alarm[0] = irandom_range(birdSpawnMin, birdSpawnMax);
 alarm[1] = irandom_range(fishSpawnMin, fishSpawnMax);
+alarm[2] = irandom_range(annoySpawnMin, annoySpawnMax);

@@ -1,5 +1,6 @@
 /// @description Fire sonar now (even if near the surface)
 
+//TODO: Remove this? Or only enable it in some situations. John ask Micha
 
 if(!isEnabled) {
 	show_debug_message("Enabling sonar light now. (Manual)");

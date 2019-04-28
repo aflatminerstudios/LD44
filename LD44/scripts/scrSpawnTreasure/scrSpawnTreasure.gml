@@ -2,7 +2,7 @@
 
 
 var success = false;
-var treasureType = choose(objTestMoney);
+var treasureType = choose(objTire, objTire, objGoatIdol);
 
 
 while (!success) {

@@ -71,4 +71,15 @@ if (!attacking) {
   }
 }
 
+if (place_meeting(x, y, objTerrainAlpha)) {
+  x = oldX;
+  y = oldY;
+  if (attacking) {
+    alarm[2] = 1;
+  } else {
+    alarm[0] = 1; 
+  }
+}
+
+
 attackCountdown++;

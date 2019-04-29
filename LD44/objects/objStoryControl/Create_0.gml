@@ -3,4 +3,10 @@
 
 whichStep = 0;
 
+music = sndStoryBG;
+
+if (!audio_is_playing(music)) {
+  audio_play_sound(music, 100, true);
+}
+
 alarm[0] = room_speed;

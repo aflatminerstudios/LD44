@@ -4,6 +4,7 @@
 maxSpeed = 5;
 curSpeed = 0;
 accel = 0.1;
+decel = 0.04;
 
 armor = 20;
 

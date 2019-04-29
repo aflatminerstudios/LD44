@@ -22,8 +22,16 @@ if (!docked) {
   if (scrHeldRight()) {
     curSpeed += accel; 
     image_xscale = 1; 
-  }  
-
+  }
+  
+  if (!scrHeldLeft() && !scrHeldRight()) {
+    curSpeed -= decel * sign(curSpeed);
+    if (abs(curSpeed) <= decel) {
+      curSpeed = 0; 
+    }
+  }
+  
+ 
   curSpeed = clamp(curSpeed, maxSpeed * -1, maxSpeed);
   x += curSpeed;
   

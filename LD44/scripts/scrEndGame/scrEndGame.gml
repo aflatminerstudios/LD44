@@ -11,7 +11,7 @@ if (objGameControl.bankedMoney >= global.goalMoney) {
 
 gc.money = objGameControl.bankedMoney;
 gc.won = won;
-
+objSoundController.alarm[0] = 1;
 
 room_goto(roomGameOver);
 

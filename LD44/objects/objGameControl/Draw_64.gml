@@ -1,8 +1,8 @@
-/// @description Insert description here
+/// @description Draw indicators on screen
 // You can write your code in this editor
 
-draw_text(500, 100, "$" + string(money) + " : $" + string(bankedMoney));
-draw_text(500, 50, string(objTimer.count) + "/" + string(objTimer.maxCount));
+//draw_text(500, 100, "$" + string(money) + " : $" + string(bankedMoney));
+//draw_text(500, 50, string(objTimer.count) + "/" + string(objTimer.maxCount));
 
 
 draw_sprite(sprSalvageText, 0, 75, 50);

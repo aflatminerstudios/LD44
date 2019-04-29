@@ -16,3 +16,8 @@ if (objGameControl.bankedMoney >= global.goalMoney && !objGameControl.finished) 
 } else {
   objMenu.leaving = true; 
 }
+
+//Get rid of bank description
+with (objMenuHowToPlay) {
+  banked = true; 
+}

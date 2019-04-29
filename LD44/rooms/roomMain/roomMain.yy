@@ -17,7 +17,8 @@
         "f7c93efb-dd52-4755-a702-1db8a9872899",
         "657be61e-c9d0-4231-aa6f-2eea95320fc5",
         "1a691ac6-2bf6-4e84-acde-0ba945736991",
-        "7e2a47c5-7724-4a99-8f34-b517cbf090d2"
+        "7e2a47c5-7724-4a99-8f34-b517cbf090d2",
+        "5b54f6f3-1dc3-4a2b-83ca-d3a96355cd55"
     ],
     "IsDnD": false,
     "layers": [
@@ -95,7 +96,8 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_55A12613","id": "657be61e-c9d0-4231-aa6f-2eea95320fc5","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_55A12613","objId": "4fe2b8f1-646a-4eec-bceb-3f0a098ad192","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 0,"y": 0}
+{"name": "inst_55A12613","id": "657be61e-c9d0-4231-aa6f-2eea95320fc5","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_55A12613","objId": "4fe2b8f1-646a-4eec-bceb-3f0a098ad192","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 0,"y": 0},
+{"name": "inst_8F56960","id": "5b54f6f3-1dc3-4a2b-83ca-d3a96355cd55","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_8F56960","objId": "cd146a79-411a-44c6-8bda-36571ea0504e","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 3776,"y": 0}
             ],
             "layers": [
 
@@ -148,7 +150,7 @@
             "grid_x": 8,
             "grid_y": 8,
             "hierarchyFrozen": false,
-            "hierarchyVisible": false,
+            "hierarchyVisible": true,
             "inheritLayerDepth": false,
             "inheritLayerSettings": false,
             "inheritSubLayers": false,
@@ -161,7 +163,7 @@
             "modelName": "GMRAssetLayer",
             "mvc": "1.0",
             "userdefined_depth": false,
-            "visible": false
+            "visible": true
         },
         {
             "__type": "GMRBackgroundLayer_Model:#YoYoStudio.MVCFormat",

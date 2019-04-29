@@ -3,8 +3,8 @@
 
 var boat = instance_find(objBoat, 0);
 
-var nearDist = 1024;
-var fadeLength = 1024;
+var nearDist = 1250;
+var fadeLength = 1000;
 var farDist = nearDist + fadeLength;
 
 if (boat != noone) {
@@ -21,7 +21,7 @@ if (boat != noone) {
   } else if (boat.x < room_width - nearDist && boat.x > room_width - farDist){
     
     if (!audio_is_playing(musicFar)) {
-      //audio_play_sound(musicFar, 100, true);
+      audio_play_sound(musicFar, 100, true);
     } 
     var perNear = abs(((room_width - farDist) - boat.x) / fadeLength);
     var perFar = 1 - perNear;    

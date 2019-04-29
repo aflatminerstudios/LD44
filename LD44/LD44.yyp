@@ -399,6 +399,14 @@
             }
         },
         {
+            "Key": "3ab34501-41f7-4516-a246-0ccb23ce1418",
+            "Value": {
+                "id": "62c54b49-e71b-4eba-bfcf-2e02eb04d7a4",
+                "resourcePath": "sprites\\sprChoseDesc\\sprChoseDesc.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3ddb10bd-eb00-4db4-b7e2-ba119eec8957",
             "Value": {
                 "id": "46481a04-12bc-4f75-98d7-ce27b227a1bd",
@@ -443,6 +451,14 @@
             "Value": {
                 "id": "a8077515-1bd8-418b-bf79-d8d354cef047",
                 "resourcePath": "sprites\\sprCthulhu\\sprCthulhu.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "43109945-87a4-4618-a454-f71004599d2d",
+            "Value": {
+                "id": "d0fbe71e-f4b6-4805-a98a-6756b150ecf6",
+                "resourcePath": "sprites\\sprBankDesc\\sprBankDesc.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -823,6 +839,14 @@
             }
         },
         {
+            "Key": "82af36a4-40f4-4d1e-9abd-309f485ccd67",
+            "Value": {
+                "id": "18815ac5-dbcb-429d-9e31-7aed4e30aeba",
+                "resourcePath": "sprites\\sprSelectedDesc\\sprSelectedDesc.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8427047f-9ef8-4c77-89f3-9c20623d07b6",
             "Value": {
                 "id": "3e4e507f-d687-4af1-9e15-b57ccf3354de",
@@ -875,6 +899,14 @@
             "Value": {
                 "id": "b1f17dc3-cf95-4984-aa7b-2b89b00e9e97",
                 "resourcePath": "sprites\/sprPlayGameButtonUp\/sprPlayGameButtonUp.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "88801302-212d-47c2-807a-ed67e77d5eeb",
+            "Value": {
+                "id": "08a6b16f-69e2-4a19-b728-ffd981e49a79",
+                "resourcePath": "sprites\\sprExitDesc\\sprExitDesc.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1452,6 +1484,14 @@
                 "id": "11c605ca-d1d9-406e-93f5-7ff5280731c4",
                 "resourcePath": "sprites\/sprClawLightLevel1\/sprClawLightLevel1.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "cd146a79-411a-44c6-8bda-36571ea0504e",
+            "Value": {
+                "id": "a3a67486-8abe-4da1-8371-00a73b4a7e39",
+                "resourcePath": "objects\\objMenuHowToPlay\\objMenuHowToPlay.yy",
+                "resourceType": "GMObject"
             }
         },
         {

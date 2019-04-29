@@ -3,7 +3,7 @@
 music = sndMusic;
 
 if (!audio_is_playing(music)) {
-  //audio_play_sound(music, 100, true);
+  audio_play_sound(music, 100, true);
 }
 
 musicFar = sndMusicFar;

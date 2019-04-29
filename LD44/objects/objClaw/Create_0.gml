@@ -13,8 +13,11 @@ parent = noone;
 //For when carrying an object
 carrying = false;
 carriedObject = noone;
+dropCount = 0;
+dropCountLimit = 10;
 
 parentDist = 0;
+minDistance = 0;
 
 var clawLight = instance_create_layer(x, y, "BehindMidgroundInstances", objClawLight);
 clawLight.parentInstance = self.id;

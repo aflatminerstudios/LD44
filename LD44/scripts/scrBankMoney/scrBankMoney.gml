@@ -8,8 +8,8 @@ objGameControl.money = 0;
 
 
 
-if (objGameControl.bankedMoney >= global.goalMoney) {
-  show_debug_message("Win menu spawning");
+if (objGameControl.bankedMoney >= global.goalMoney && !objGameControl.finished) {
+
   scrWinMenu();
   objMenu.alarm[0] = 1;
   //scrEndGame(); 

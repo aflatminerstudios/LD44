@@ -10,7 +10,8 @@
         "e96311f8-b5e6-4650-82cf-47befe873778",
         "a95866e7-3ebe-434c-9885-89cb4e2053e6",
         "adf7b45e-7cf9-4848-b8e6-b2b86ee8847a",
-        "c20becf8-d12c-4604-acc1-f212bee3f1e7"
+        "c20becf8-d12c-4604-acc1-f212bee3f1e7",
+        "b34eff6a-2ccc-4028-936b-198e513d2f0b"
     ],
     "filterType": "GMScript",
     "folderName": "DockAndMenu",

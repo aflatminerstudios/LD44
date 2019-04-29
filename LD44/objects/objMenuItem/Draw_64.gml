@@ -28,7 +28,7 @@ if (parent != noone) {
     draw_text(x, y + 50, "$" + string(price));
   } else if (sprite_index == sprBank) {
     draw_text(x, y - 70, "$" + string(objGameControl.bankedMoney));
-    draw_text(x, y + 10, "$" + string(global.goalMoney - objGameControl.bankedMoney));
+    draw_text(x, y + 10, "$" + string(max(global.goalMoney - objGameControl.bankedMoney,0)));
   }
 
   draw_set_halign(align);

@@ -19,17 +19,17 @@ if (parent != noone) {
 
       landed = true;
       //Recalculate value based on depth
-       if (y > 1000) {
+       if (y > 900) {
           value *= 1.75;
           if (y > 1450) {
-          value *= 1.75; 
+          value *= 2; 
           }
       }
       
       //Recalculate value based on distance from shore
       var distanceFromShore = room_width - x - 300;
       if (distanceFromShore > 0) {
-        value += (floor(distanceFromShore / 250)) * 10;
+        value += (floor(distanceFromShore / 250)) * 15;
       }
       value = round(value);
     }

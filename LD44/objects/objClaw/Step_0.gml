@@ -62,7 +62,7 @@ if (parent != noone) {
         carriedObject = noone;
         carrying = false;
         image_index = 0;
-				instance_create_layer(objBoat.x, objBoat.y - 40, "MidgroundInstances", objMoneySymbol);
+				instance_create_layer(objBoat.x, objBoat.y - 50, "MidgroundInstances", objMoneySymbol);
       }
       y = parent.y + minDistance;      
     } else if (calc <= -1 || calc >= 1) {

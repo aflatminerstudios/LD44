@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "13de110b-3b73-4fd8-a64b-1637c8370eb2",
+            "Value": {
+                "id": "13e6b850-128c-41e4-a6a6-dc12ea718a34",
+                "resourcePath": "sprites\\sprShopSign\\sprShopSign.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "13e895fc-6f61-44ef-b149-8e2434f7e4b0",
             "Value": {
                 "id": "d26c447f-ea99-4ef7-99fd-ad6cbf2a2b43",
@@ -244,6 +252,14 @@
                 "id": "b26e6aad-d32c-4d4d-9ba1-04e82528ca3d",
                 "resourcePath": "objects\/objStaticBackground\/objStaticBackground.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "26579bf2-7441-446f-a8f8-5317f1e1ece9",
+            "Value": {
+                "id": "df3284be-5fa2-4044-ab44-3ef6199085c4",
+                "resourcePath": "sprites\\sprBankText\\sprBankText.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

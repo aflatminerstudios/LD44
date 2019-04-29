@@ -6,9 +6,13 @@ if (parent != noone) {
   y = parent.y;
 } else {
   //TODO: Change this to deal with terrain instead of bottom of the screen
-  if (y < room_height - sprite_height/2) {
-    y += dropSpeed;
+  var newY = y + dropSpeed;
+  
+  if (!place_meeting(x, newY, objTerrainAlpha)) {
+    y = newY;
   } else {
-    y = room_height - sprite_height/2; 
+    while (!place_meeting(x, y + 1, objTerrainAlpha)) {
+      y += 1; 
+    }
   }
 }

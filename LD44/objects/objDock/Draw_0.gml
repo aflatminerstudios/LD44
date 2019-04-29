@@ -1,8 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-draw_self();
-
 if (global.debug) {
   var color = draw_get_color();
   var alpha = draw_get_alpha();

@@ -2,7 +2,18 @@
 
 
 var success = false;
-var treasureType = choose(objTire, objTire, objGoatIdol);
+var treasureType = choose(objTire, objTire, objTire, objMotor, objMotor, objGoatIdol, objCthulhu);
+var r = random(1);
+
+if (r < 0.40) {
+  treasureType = objTire; 
+} else if (r < 0.7) {
+  treasureType = objMotor;
+} else if (r < 0.9) {
+  treasureType = objGoatIdol;
+} else {
+  treasureType = objCthulhu;
+}
 
 
 while (!success) {

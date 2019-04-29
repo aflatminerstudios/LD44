@@ -7,4 +7,4 @@ numTreasures = irandom_range(minTreasures, maxTreasures);
 
 for (var i = 0; i < numTreasures; i++) {
   scrSpawnTreasure(); 
-}
+

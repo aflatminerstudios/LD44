@@ -21,6 +21,9 @@ switch(menuItem.itemDesc) {
   case "Claw Light":
     scrUpgradeClawLight();
     break;
+  case "Claw Sonar":
+    scrUpgradeClawSonar();
+    break;    
   default:
     show_debug_message("Invalid purchase attempt");
 }

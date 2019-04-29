@@ -30,11 +30,17 @@ with (menu) {
     menuItems[1].itemNum = 1;
   }
   
-  menuItems[2].itemDesc = "Boat";
-  menuItems[2].price = 5 * objGameControl.boatLevel;
-  menuItems[2].parent = menu;
-  menuItems[2].itemNum = 2;
-  
+  if (objGameControl.clawLightLevel == 2 && objGameControl.clawLevel >= 2 && objGameControl.boatLevel >= 3) {
+    menuItems[2].itemDesc = "Claw Sonar";
+    menuItems[2].price = 15;
+    menuItems[2].parent = menu;
+    menuItems[2].itemNum = 2;
+  } else {
+    menuItems[2].itemDesc = "Boat";
+    menuItems[2].price = 5 * objGameControl.boatLevel;
+    menuItems[2].parent = menu;
+    menuItems[2].itemNum = 2;
+  }
   
   menuItems[3].itemDesc = "Bank";
   menuItems[3].price = -1;

@@ -1039,6 +1039,14 @@
             }
         },
         {
+            "Key": "c074e912-3bf5-45ee-87c6-3f80ff8c6856",
+            "Value": {
+                "id": "3b160b4a-ed6c-41fd-bd12-bda482dbe53c",
+                "resourcePath": "scripts\\scrUpgradeClawSonar\\scrUpgradeClawSonar.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "c09df6bd-6fb3-4e8b-9e73-da39cab3819e",
             "Value": {
                 "id": "4c426d20-0dc0-46bb-9425-b3fab3b0b923",
@@ -1443,6 +1451,7 @@
         "ed271090-8ea1-4bf3-8583-11b40f8eee62",
         "081ae0d4-29c0-4242-8354-a90b7c4f6253",
         "9303d6e6-b4d4-4d39-9d4d-94cda70198d5",
+        "c074e912-3bf5-45ee-87c6-3f80ff8c6856",
         "2fb1edd5-1212-4e64-91d9-3c649128fbeb"
     ],
     "tutorial": ""

@@ -7,8 +7,8 @@ if(parentInstance != noone) {
 	x = parentInstance.x;
 	y = parentInstance.y;
 	
-	var surfaceY = 220;
-	var fullLightY = 400;
+	var surfaceY = 200;
+	var fullLightY = 300;
 	if(y < surfaceY) {
 		image_alpha = 0;	
 	} else if(y < fullLightY) {

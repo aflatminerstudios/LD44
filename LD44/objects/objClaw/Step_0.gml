@@ -2,7 +2,7 @@
 
 
 if (parent != noone) {
-
+  minDistance = parent.sprite_height/2 + sprite_height/2;
   //x = parent.x;
   //x += parent.curSpeed;
  /* if (carrying)
@@ -10,12 +10,12 @@ if (parent != noone) {
   else
     compValue = 0;
    */ 
-  if (parentDist == 0) {
+  if (parentDist <= minDistance) {
     //Can't collide if directly attached
     x += parent.curSpeed;         
   } else {
     //Make sure not colliding with something in list    
-    if (!scrIsCollisionListForClaw(x + parent.curSpeed, y, objMoney, objAnnoyanceParent)) {        
+    if (!scrIsCollisionListForClaw(x + parent.curSpeed, y, objMoney, objAnnoyanceParent, objTerrainAlpha)) {        
       //Keep up with parent
       x += parent.curSpeed;//prevSpeed[15];         
     }
@@ -24,7 +24,7 @@ if (parent != noone) {
       //If not directly under parent, adjust a bit each time until directly under
       var dist = parent.x - x;
       //var per = dist / parentDist;    
-      if (!scrIsCollisionListForClaw(x + 2 * sign(dist) , y, objMoney, objAnnoyanceParent)) {
+      if (!scrIsCollisionListForClaw(x + 2 * sign(dist) , y, objMoney, objAnnoyanceParent, objTerrainAlpha)) {
         x += 2 * sign(dist); 
       }
     }
@@ -50,7 +50,7 @@ if (parent != noone) {
 
     //calculate y from x coordinate and distance from parent
     var calc = (x - parent.x) / parentDist;
-    minDistance = parent.sprite_height/2 + sprite_height/2;
+    
     if (parentDist <= minDistance) {
       //At top
       parentDist = minDistance;
@@ -75,12 +75,25 @@ if (parent != noone) {
     }
     
     //Make sure it doesn't go beyond top or bottom
-    var bottom = room_height - sprite_height/2;
+    while (place_meeting(x, y, objTerrainAlpha)) {
+      y -= 1;
+      parentDist = point_distance(x, y, parent.x, parent.y);
+    }
+    if (carrying) {
+      with (carriedObject) {
+        while (place_meeting(x, other.y, objTerrainAlpha)) {
+          other.y -= 1;
+          parentDist = point_distance(x, other.y, other.parent.x, other.parent.y);
+        }  
+      }
+    }
+    
+    /*var bottom = room_height - sprite_height/2;
 
     if (y >= bottom) {
       y = bottom;
       parentDist = point_distance(x, y, parent.x, parent.y);
-    }
+    }*/
 
     //Check for whether to pick up treasure
     if (dropCount >= dropCountLimit) {
@@ -90,9 +103,9 @@ if (parent != noone) {
           treasure.parent = self.id;
           carriedObject = treasure;
           carrying = true;
-          with (treasure.sparkles) {
+          /*with (treasure.sparkles) {
             instance_destroy(); 
-          }
+          }*/
           targetIndex = carriedObject.targetIndex;
       //    show_debug_message("Going to " + string(targetIndex));
           image_index = targetIndex;

@@ -13,7 +13,6 @@ boatLevel = 1;
 timeLevel = 1;
 clawLightLevel = 1;
 
-
 birdSpawnMin = room_speed * 3;
 birdSpawnMax = room_speed * 10;
 
@@ -27,3 +26,6 @@ maxSharks = 4;
 alarm[0] = irandom_range(birdSpawnMin, birdSpawnMax);
 alarm[1] = irandom_range(fishSpawnMin, fishSpawnMax);
 alarm[2] = irandom_range(annoySpawnMin, annoySpawnMax);
+
+
+finished = false;

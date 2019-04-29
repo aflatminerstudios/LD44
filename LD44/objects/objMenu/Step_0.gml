@@ -47,7 +47,6 @@ if (!done && claw.raising) {
       break;    
     case 3:
       scrBankMoney();
-      leaving = true;
       break;      
     case 4:
       scrLeaveDock();

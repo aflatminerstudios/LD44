@@ -18,10 +18,10 @@ if (toSpawn) {
     xC = room_width + 500;
   }
   
-  var yC = irandom_range(350, room_height - 300);
+  var yC = irandom_range(300, 700);
 
   instance_create_layer(xC, yC, "MidgroundInstances", whichToSpawn);  
-  show_debug_message("Spawning shark " + string(xC));
+  //show_debug_message("Spawning shark " + string(xC));
 }
 
 

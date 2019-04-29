@@ -215,6 +215,14 @@
             }
         },
         {
+            "Key": "294c9a6a-7a0b-4fc8-951e-aeb4632cfc1f",
+            "Value": {
+                "id": "76c5efaf-f302-4d51-b8f7-58dd08392703",
+                "resourcePath": "objects\\objWinMenu\\objWinMenu.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2b7a3245-85f6-43c3-af60-be612b909f92",
             "Value": {
                 "id": "05e08d9c-ea68-4755-b6c6-92986bbb436a",
@@ -527,6 +535,14 @@
             }
         },
         {
+            "Key": "66a46e5a-e02c-4935-8b11-7e9dfdb915e2",
+            "Value": {
+                "id": "f523b542-e35c-4487-ac7b-ccfbd001233c",
+                "resourcePath": "sprites\\sprWinMenu\\sprWinMenu.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "66c2fb60-8559-4163-bd7c-098974639a7b",
             "Value": {
                 "id": "c7d60863-f7aa-49bf-8284-4b61d4bd7811",
@@ -660,6 +676,14 @@
                 "id": "3e4e507f-d687-4af1-9e15-b57ccf3354de",
                 "resourcePath": "options\/ios\/options_ios.yy",
                 "resourceType": "GMiOSOptions"
+            }
+        },
+        {
+            "Key": "859e52f5-0cdd-4cf3-92df-5607573965e9",
+            "Value": {
+                "id": "60a6d666-9cc5-48f1-9c57-7848a37d4a1b",
+                "resourcePath": "views\\859e52f5-0cdd-4cf3-92df-5607573965e9.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -964,6 +988,14 @@
                 "id": "a7914340-c4b8-4968-aa48-b8ddd40153e2",
                 "resourcePath": "objects\/afm_objButton\/afm_objButton.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b34eff6a-2ccc-4028-936b-198e513d2f0b",
+            "Value": {
+                "id": "175d3181-fb9d-4e08-a543-5cbe085b8453",
+                "resourcePath": "scripts\\scrWinMenu\\scrWinMenu.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1468,7 +1500,8 @@
         "081ae0d4-29c0-4242-8354-a90b7c4f6253",
         "9303d6e6-b4d4-4d39-9d4d-94cda70198d5",
         "c074e912-3bf5-45ee-87c6-3f80ff8c6856",
-        "2fb1edd5-1212-4e64-91d9-3c649128fbeb"
+        "2fb1edd5-1212-4e64-91d9-3c649128fbeb",
+        "b34eff6a-2ccc-4028-936b-198e513d2f0b"
     ],
     "tutorial": ""
 }

@@ -9,13 +9,7 @@ if (!claw.raising && !claw.dropping) {
   } else if (scrPressedLeft()) {
     selectedItem = (selectedItem - 1);
     if (selectedItem == -1) {
-      selectedItem = 0;
-      if (canLeave) {
-        leaving = true;
-        scrLeaveDock();
-      } else {
       selectedItem = maxItem; 
-      }
     }
   }
   if (!leaving) {
@@ -31,33 +25,14 @@ if (scrPressedDown() || keyboard_check_pressed(vk_space)) {
 if (!done && claw.raising) {
   switch(selectedItem) {
     case 0:
-      scrMakePurchase(menuItems[0]);
-      canLeave = false;
-      menuItems[0].valid = false;
+      scrEndGame();      
       break;
     case 1:
-      scrMakePurchase(menuItems[1]);
-      canLeave = false;
-      menuItems[1].valid = false;
-      break;
-    case 2:
-      scrMakePurchase(menuItems[2]);
-      canLeave = false;
-      menuItems[2].valid = false;
-      break;    
-    case 3:
-      scrBankMoney();
-      break;      
-    case 4:
-      scrLeaveDock();
+      leaving = true;
+      objGameControl.finished = true;
       break;
   }
   done = true;
-}
-
-//Can always leave if you don't have any money to bank
-if (objGameControl.money == 0) {
-  canLeave = true; 
 }
 
 if (!claw.raising) {

@@ -26,3 +26,6 @@ maxSharks = 4;
 alarm[0] = irandom_range(birdSpawnMin, birdSpawnMax);
 alarm[1] = irandom_range(fishSpawnMin, fishSpawnMax);
 alarm[2] = irandom_range(annoySpawnMin, annoySpawnMax);
+
+
+finished = false;

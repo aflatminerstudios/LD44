@@ -9,5 +9,6 @@ if (!objBoat.safe) {
 alarm[0] = timeStep;
 
 if (count >= maxCount) {
-  scrEndGame(); 
+  scrTriggerCreep();
+  scrResetTimer();
 }

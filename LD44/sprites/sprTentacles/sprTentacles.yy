@@ -8,11 +8,11 @@
     "VTile": false,
     "bbox_bottom": 767,
     "bbox_left": 0,
-    "bbox_right": 1626,
+    "bbox_right": 1167,
     "bbox_top": 0,
-    "bboxmode": 0,
+    "bboxmode": 2,
     "colkind": 1,
-    "coltolerance": 0,
+    "coltolerance": 44,
     "edgeFiltering": false,
     "frames": [
         {

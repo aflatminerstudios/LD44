@@ -14,7 +14,7 @@ if (level == 1 || level == 3 || level == 5 || level == 7)  {
 } else if (level == 12) {
   claw.carryMult += 0.05;
 } else {
-  claw.dropSpeed *= 1.015; 
+  claw.dropSpeed *= 1.05; 
 }
 
 objGameControl.clawLevel += 1;

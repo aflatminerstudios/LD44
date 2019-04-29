@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "14516804-d593-4a17-97dc-5e4dbd4a8051",
+            "Value": {
+                "id": "62439d15-3b7a-440b-a508-10e3202f4ae6",
+                "resourcePath": "scripts\\scrResetTimer\\scrResetTimer.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "15110372-82ed-4a54-81b1-718e50c33213",
             "Value": {
                 "id": "cdf37cfa-3906-46fe-bcad-4c40fd3054df",
@@ -319,6 +327,14 @@
             }
         },
         {
+            "Key": "334d8e6e-4676-45a3-ab96-a8a190cccbb0",
+            "Value": {
+                "id": "8e276573-50f5-44ed-b147-6a1316cce911",
+                "resourcePath": "scripts\\scrTriggerRetreat\\scrTriggerRetreat.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "36cc7b63-3a28-4f4a-8e70-f070db2a8834",
             "Value": {
                 "id": "735c3290-0173-4325-adb9-9ee2c128f97a",
@@ -420,6 +436,14 @@
                 "id": "525727dd-cd3c-402e-8b7f-22995626a36b",
                 "resourcePath": "views\/4aa78509-e47d-4c25-a8b1-a8871c2a7ed9.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4b17cfea-5de1-4278-9fbe-98cedc3e632a",
+            "Value": {
+                "id": "ad068b84-397f-40c1-9758-5da2f35a13e7",
+                "resourcePath": "scripts\\scrResetTentacles\\scrResetTentacles.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -787,6 +811,14 @@
             "Value": {
                 "id": "7a9f0cbb-0d64-4b3f-be64-be96425135d2",
                 "resourcePath": "scripts\/scrPressedDown\/scrPressedDown.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "8dbe439c-9ecf-4b3c-b151-b409f688298d",
+            "Value": {
+                "id": "6d6ee5cd-49f3-421f-a475-ca3f74524e3e",
+                "resourcePath": "scripts\\scrTriggerCreep\\scrTriggerCreep.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1303,6 +1335,14 @@
             }
         },
         {
+            "Key": "d0d868b8-b7ef-45bc-b04c-5ff51b982bd7",
+            "Value": {
+                "id": "260bb64b-1526-4b0d-b5fb-5be0297ea207",
+                "resourcePath": "objects\\objTentacles\\objTentacles.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d22fd4ff-f2af-4ff6-80fe-6d4169f4dd9b",
             "Value": {
                 "id": "b273904a-2d3a-44d8-b06f-01a08a2c80ab",
@@ -1589,7 +1629,11 @@
         "9303d6e6-b4d4-4d39-9d4d-94cda70198d5",
         "c074e912-3bf5-45ee-87c6-3f80ff8c6856",
         "2fb1edd5-1212-4e64-91d9-3c649128fbeb",
-        "b34eff6a-2ccc-4028-936b-198e513d2f0b"
+        "b34eff6a-2ccc-4028-936b-198e513d2f0b",
+        "4b17cfea-5de1-4278-9fbe-98cedc3e632a",
+        "8dbe439c-9ecf-4b3c-b151-b409f688298d",
+        "334d8e6e-4676-45a3-ab96-a8a190cccbb0",
+        "14516804-d593-4a17-97dc-5e4dbd4a8051"
     ],
     "tutorial": ""
 }

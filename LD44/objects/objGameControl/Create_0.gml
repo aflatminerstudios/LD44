@@ -29,3 +29,5 @@ alarm[2] = irandom_range(annoySpawnMin, annoySpawnMax);
 
 
 finished = false;
+
+tentacles = scrResetTentacles();

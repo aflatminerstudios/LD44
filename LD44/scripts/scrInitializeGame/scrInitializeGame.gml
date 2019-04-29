@@ -5,7 +5,7 @@ randomize();
 
 //Set up macros
 #macro DOCK_SAFE_DISTANCE 250
-#macro DOCK_MENU_DISTANCE 50
+#macro DOCK_MENU_DISTANCE 75
 
 //Set up globals
 global.debug = false;

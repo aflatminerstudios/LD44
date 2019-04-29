@@ -17,3 +17,4 @@ prevSpeed[0] = 0;
 
 docked = false;
 safe = true;
+pushed = false;

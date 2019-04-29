@@ -15,24 +15,27 @@ if (len < 20) {
 */
 if (!docked) {
   //Movement can happen if not docked
-  if (scrHeldLeft()) {
+  if (!pushed && scrHeldLeft()) {
     curSpeed -= accel;
     image_xscale = -1; 
   }
-  if (scrHeldRight()) {
+  if (!pushed && scrHeldRight()) {
     curSpeed += accel; 
     image_xscale = 1; 
   }
   
-  if (!scrHeldLeft() && !scrHeldRight()) {
+  if (pushed || (!scrHeldLeft() && !scrHeldRight())) {
     curSpeed -= decel * sign(curSpeed);
     if (abs(curSpeed) <= decel) {
       curSpeed = 0; 
     }
   }
   
- 
-  curSpeed = clamp(curSpeed, maxSpeed * -1, maxSpeed);
+  if (!pushed) {
+    curSpeed = clamp(curSpeed, maxSpeed * -1, maxSpeed);
+  } else if (curSpeed <= maxSpeed) {
+    pushed = false;
+  }
   x += curSpeed;
   
   //Check if entering/leaving dock/safety
@@ -76,10 +79,16 @@ if (curSpeed == 0 || docked || !claw.carrying) {
         instance_destroy(); 
       }
     }
-  } else {
-    if (sprite_index != sprBoatPulling) {
-      sprite_index = sprBoatPulling; 
-      var wake = instance_create_depth(x, y, depth, objBoatWake);
-      wake.parent = self.id;
-    }
+} else {
+  if (sprite_index != sprBoatPulling) {
+    sprite_index = sprBoatPulling; 
+    var wake = instance_create_depth(x, y, depth, objBoatWake);
+    wake.parent = self.id;
   }
+}
+
+
+if (armor <= 0) {
+  scrEndGame(); 
+}
+  

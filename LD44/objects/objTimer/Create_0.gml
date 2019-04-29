@@ -1,8 +1,8 @@
 /// @description Initialize variables, etc.
 
-baseTimer = 250;
-rangeMin = -150;
-rangeMax = 150;
+baseTimer = 100;
+rangeMin = -70;
+rangeMax = 50;
 
 
 maxCount = baseTimer + irandom_range(rangeMin, rangeMax);

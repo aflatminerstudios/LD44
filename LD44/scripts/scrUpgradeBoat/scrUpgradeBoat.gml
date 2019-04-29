@@ -5,7 +5,7 @@ var boat = objBoat;
 
 switch(level) {
   case 1:
-    boat.maxSpeed = 5.3;
+    boat.maxSpeed = 5.5;
     break;
   case 2:
     boat.accel = 0.2
@@ -14,7 +14,7 @@ switch(level) {
     boat.armor = 40;
     break;    
   case 4:
-    boat.maxSpeed = 5.5;
+    boat.maxSpeed = 6;
     break;
   case 5:
     boat.accel = 0.25;
@@ -23,7 +23,7 @@ switch(level) {
     boat.armor = 80;
     break;
   case 7:
-    boat.maxSpeed = 6;
+    boat.maxSpeed = 6.5;
     break;
   default:
     if (level % 2 == 0) {

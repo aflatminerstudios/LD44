@@ -1,7 +1,7 @@
 /// @description Initialize variables, etc
 
 
-dropSpeed = 4;
+dropSpeed = 6;
 //Raising might be slower than dropping?
 raiseMult = 0.75;
 //Raising while carrying something is even slower

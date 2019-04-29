@@ -9,4 +9,4 @@ randomize();
 
 //Set up globals
 global.debug = false;
-global.goalMoney = 5000;
+global.goalMoney = 4000;

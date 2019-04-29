@@ -4,6 +4,7 @@
 //"Timer" only runs if boat is not safe
 if (!objBoat.safe) {
   count += 1;
+  totalCount++;
 }
 
 alarm[0] = timeStep;

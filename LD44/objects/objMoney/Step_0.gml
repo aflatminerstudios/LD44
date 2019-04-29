@@ -20,9 +20,9 @@ if (parent != noone) {
       landed = true;
       //Recalculate value based on depth
        if (y > 1000) {
-          value *= 1.5;
+          value *= 1.75;
           if (y > 1450) {
-          value *= 1.5; 
+          value *= 1.75; 
           }
       }
       
@@ -31,7 +31,7 @@ if (parent != noone) {
       if (distanceFromShore > 0) {
         value += (floor(distanceFromShore / 250)) * 10;
       }
-      
+      value = round(value);
     }
  
   }

@@ -4,6 +4,7 @@ baseTimer = 70;
 rangeMin = -40;
 rangeMax = 30;
 
+totalCount = 0;
 
 maxCount = baseTimer + irandom_range(rangeMin, rangeMax);
 count = 0;

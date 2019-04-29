@@ -6,13 +6,13 @@ var tentacles = instance_find(objTentacles, 0);
 
 switch (level) {
   case 1:
-    tentacles.damage -= 5;
+    tentacles.creepSpeed *= 0.9;
     break;
   case 2:
-    timer.baseTimer += 20
+    tentacles.damage -= 5;
     break;
   case 3:
-    tentacles.creepSpeed *= 0.75;
+    timer.baseTimer += 20
     break;
   case 4:
     tentacles.retreatMult *= 1.25;

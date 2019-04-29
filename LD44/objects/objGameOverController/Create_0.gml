@@ -6,4 +6,8 @@ bankedMoney = 0;
 
 ready = false;
 
+whichPhrase = irandom_range(0,2);
+
 alarm[0] = room_speed;
+
+won = false;

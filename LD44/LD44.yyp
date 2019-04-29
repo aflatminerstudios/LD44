@@ -503,6 +503,14 @@
             }
         },
         {
+            "Key": "507f0b49-86f2-4e81-9008-15e97d13880a",
+            "Value": {
+                "id": "9859064d-affb-461e-abda-5eb1a79a8554",
+                "resourcePath": "views\\507f0b49-86f2-4e81-9008-15e97d13880a.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "510f4993-0e97-4516-8316-c6173ac9af68",
             "Value": {
                 "id": "32f117f7-ffa5-4e0e-849d-3f6f503a0fc8",
@@ -580,6 +588,14 @@
                 "id": "9acaebf6-0faf-4a89-9101-3730ba6efaf2",
                 "resourcePath": "scripts\/scrIsCollisionListForClaw\/scrIsCollisionListForClaw.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "5cf1c834-a83d-4d80-bb8a-0335d8cc1265",
+            "Value": {
+                "id": "33cfac8a-bd2c-4999-86d3-c4a848364d56",
+                "resourcePath": "fonts\\fontGameOver\\fontGameOver.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -684,6 +700,14 @@
                 "id": "356ffadd-7349-487e-be46-7b16c47cb62e",
                 "resourcePath": "options\/html5\/options_html5.yy",
                 "resourceType": "GMHtml5Options"
+            }
+        },
+        {
+            "Key": "7692891c-5810-4c95-a6a8-d0b71426d0a5",
+            "Value": {
+                "id": "54806ee1-4e75-4434-8594-ce9c4d223e96",
+                "resourcePath": "sprites\\sprLoseSayings\\sprLoseSayings.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1023,6 +1047,14 @@
             }
         },
         {
+            "Key": "a6b106c6-3bdf-4f83-94a1-5331bc5acb6a",
+            "Value": {
+                "id": "5e910153-b9e2-451b-8bde-21ba4ca42c9c",
+                "resourcePath": "sprites\\sprGameOverWin\\sprGameOverWin.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a7353644-3659-4f86-9c20-48b8c62d6a53",
             "Value": {
                 "id": "822c1968-810e-403b-af13-da7f8450363a",
@@ -1171,6 +1203,14 @@
             "Value": {
                 "id": "d9916c95-0533-48a3-8b83-5cefbc140d89",
                 "resourcePath": "sprites\/sprTitleButtonDown\/sprTitleButtonDown.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b838a1d1-d075-45d0-a8c5-5d6cba6b37c6",
+            "Value": {
+                "id": "0be909bd-0e92-4387-8001-4234f794d2c7",
+                "resourcePath": "sprites\\sprGameOverLose\\sprGameOverLose.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1391,6 +1431,14 @@
             }
         },
         {
+            "Key": "d07060b4-7ba7-4522-b590-8e9ad76f0cba",
+            "Value": {
+                "id": "8013fe33-f839-4c4a-9325-198c8a27eb02",
+                "resourcePath": "sprites\\sprWarningLight\\sprWarningLight.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d0d868b8-b7ef-45bc-b04c-5ff51b982bd7",
             "Value": {
                 "id": "260bb64b-1526-4b0d-b5fb-5be0297ea207",
@@ -1572,6 +1620,14 @@
                 "id": "aba699a3-0d06-4481-8f5e-ca8beea4017f",
                 "resourcePath": "sprites\/sprTitleBackground\/sprTitleBackground.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ee0ed392-478f-4919-a95b-64e40b852d29",
+            "Value": {
+                "id": "0c9011b3-dda7-4fe5-a1f6-b247b6a1abd1",
+                "resourcePath": "objects\\objWarningLight\\objWarningLight.yy",
+                "resourceType": "GMObject"
             }
         },
         {

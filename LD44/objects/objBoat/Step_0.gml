@@ -89,6 +89,6 @@ if (curSpeed == 0 || docked || !claw.carrying) {
 
 
 if (armor <= 0) {
-  scrEndGame(); 
+  scrEndGame(false); 
 }
   

@@ -25,7 +25,7 @@ if (scrPressedDown() || keyboard_check_pressed(vk_space)) {
 if (!done && claw.raising) {
   switch(selectedItem) {
     case 0:
-      scrEndGame();      
+      scrEndGame(true);      
       break;
     case 1:
       leaving = true;

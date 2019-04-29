@@ -7,18 +7,18 @@ retreatSpeed = 1;
 creeping = false;
 retreating = false;
 
-baseCreepDist = 100;
+baseCreepDist = 150;
 curCreepDist = baseCreepDist;
 creepDist = baseCreepDist;
 distanceCrept = 0;
 
-baseRetreatDist = 50;
+baseRetreatDist = 25;
 curRetreatDist = baseRetreatDist;
 retreatDist = baseRetreatDist;
 distanceRetreated = 0;
 
 //Each chunk of money donated adds this to retreta distance
-retreatMult = 10;
+retreatMult = 2;
 
 baseDamage = 20;
 damage = baseDamage;

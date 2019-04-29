@@ -7,6 +7,6 @@ var tentacles = instance_find(objTentacles, 0);
 if (banked > 0) {
   with (tentacles) {
     retreating = true;
-    retreatDist += curRetreatDist + (floor(banked / 10) * retreatMult);
+    retreatDist += curRetreatDist + baseRetreatDist + (floor(banked / 10) * retreatMult);
   }
 }

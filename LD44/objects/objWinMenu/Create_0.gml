@@ -9,7 +9,7 @@ menuItems[0].price = -1;
 menuItems[0].parent = self.id;
 menuItems[0].itemNum = 0;
 
-menuItems[1].itemDesc = "Keep Playing";
+menuItems[1].itemDesc = "Keep Playing (press space to win)";
 menuItems[1].price = -1;
 menuItems[1].parent = self.id;
 menuItems[1].itemNum = 1;

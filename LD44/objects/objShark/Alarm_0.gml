@@ -16,10 +16,15 @@ if (r < chanceToLeave) {
     targetX = room_width + 1000;
   }
   
-  targetY = irandom_range(200, room_height - 300);
+  targetY = irandom_range(200, 250);
 } else {
   targetX = irandom_range(-250, room_width + 250);
   targetY = irandom_range(200, room_height - 300);
+  
+  while (place_meeting(targetX, targetY, objTerrain)) {
+    targetX = irandom_range(-250, room_width + 250);
+    targetY = irandom_range(200, room_height - 300);
+  }
 }
 
 

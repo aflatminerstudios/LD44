@@ -4,10 +4,14 @@
 var oldX = x;
 var oldY = y;
 var dist = point_distance(x, y, targetX, targetY);
+var dir = point_direction(x, y, targetX, targetY);
 var claw = instance_find(objClaw, 0);
 
-move_towards_point(targetX, targetY, moveSpeed);
-
+x += lengthdir_x(moveSpeed, dir);
+y += lengthdir_y(moveSpeed, dir);
+//move_towards_point(targetX, targetY, moveSpeed);
+//show_debug_message(string(lengthdir_x(dist, dir)) + " , " + string(x));
+//show_debug_message(string(x) + ", " + string(oldX) + " : " + string(y) + ", " + string(oldY));
 //Fixes bug where image_angle bugs out when too close to target
 if (dist > moveSpeed * 2) {
   image_angle = point_direction(x, y, targetX, targetY);
@@ -70,5 +74,17 @@ if (!attacking) {
     
   }
 }
+
+if (place_meeting(x, y, objTerrain)) {
+  
+  x = oldX;
+  y = oldY;
+  if (attacking) {
+    alarm[2] = 1;
+  } else {
+    alarm[0] = 1; 
+  }
+}
+
 
 attackCountdown++;

@@ -231,19 +231,19 @@
             }
         },
         {
-            "Key": "1cfd5330-1863-4583-8337-96394c1584b1",
-            "Value": {
-                "id": "480a29e2-96c0-4bbb-86c5-89813b96c280",
-                "resourcePath": "views\/1cfd5330-1863-4583-8337-96394c1584b1.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "1e4932d6-405b-49a8-b8eb-7f024c83694d",
             "Value": {
                 "id": "964f618f-56ca-4c9d-917f-4a4388962634",
                 "resourcePath": "objects\/objMoneySymbol\/objMoneySymbol.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "1e976038-41f5-4efa-82dd-e3a0e2e1478c",
+            "Value": {
+                "id": "13558ba5-ada6-423f-896e-d004ddc30500",
+                "resourcePath": "sprites\\sprUpgradeSonar\\sprUpgradeSonar.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -671,6 +671,14 @@
             }
         },
         {
+            "Key": "74a23202-f3a8-49c7-a3bf-4435f9338a9b",
+            "Value": {
+                "id": "9d52fa96-1570-4d63-974d-f3628b352f6c",
+                "resourcePath": "sprites\\sprUpgradeLight\\sprUpgradeLight.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "75ac291e-7061-4bcb-8e8a-3b3545332d41",
             "Value": {
                 "id": "356ffadd-7349-487e-be46-7b16c47cb62e",
@@ -908,6 +916,22 @@
                 "id": "a81f66c2-a654-4f15-8c0c-1cf2f9342098",
                 "resourcePath": "views\/97e24c38-3db6-4b1f-ae16-ba23217c48ca.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "98e2ee8b-9e13-4d2f-83e3-64f33146a7b4",
+            "Value": {
+                "id": "19a6875f-63d9-4c15-9f62-4f0a19055cec",
+                "resourcePath": "sprites\\sprDowngrade\\sprDowngrade.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "997720b6-9f00-44d0-be7a-7da00cf4a3d3",
+            "Value": {
+                "id": "a1dfa438-25c1-489e-adf0-8ba062be3d50",
+                "resourcePath": "fonts\\fontUpgradePrice\\fontUpgradePrice.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -1175,6 +1199,14 @@
             }
         },
         {
+            "Key": "c03a3d7a-9147-48ea-ab09-09838a70e9b0",
+            "Value": {
+                "id": "ea93cba4-5c4e-4184-a834-83dea29ccfe1",
+                "resourcePath": "sprites\\sprUpgradeClaw\\sprUpgradeClaw.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c05fad77-db12-4b59-820d-d8b5aab8519e",
             "Value": {
                 "id": "112f5a61-f299-4c12-96c9-682199964354",
@@ -1284,6 +1316,14 @@
                 "id": "a84aad2b-cb0d-4ced-b831-44f7aca5b598",
                 "resourcePath": "objects\/objCameraHelper\/objCameraHelper.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c8da706c-3eaa-45d2-b8e8-cf6c482b9a93",
+            "Value": {
+                "id": "43e20a6a-5323-45ef-bddd-dda850e4cc71",
+                "resourcePath": "sprites\\sprBank\\sprBank.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1479,6 +1519,14 @@
             }
         },
         {
+            "Key": "e97f8bdc-4961-404a-b523-65e19de01897",
+            "Value": {
+                "id": "4f5ba533-d812-4c04-ae38-ac458291d893",
+                "resourcePath": "sprites\\sprUpgradeBoat\\sprUpgradeBoat.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "eb011a3f-c286-49c9-9d3e-e4ea4fb5b481",
             "Value": {
                 "id": "2d6c4e76-153c-4953-b046-4690731e315a",
@@ -1628,7 +1676,6 @@
         "6e248213-b470-4ad5-b578-6fdd1b8d968f",
         "510f4993-0e97-4516-8316-c6173ac9af68",
         "2f205312-67b5-44c8-ba7d-cc98522750b2",
-        "ab08bb82-c949-4e5f-9621-798c0518ab7c",
         "7f90bc05-0242-45fc-b09b-e999beab2d8b",
         "de399fb5-2484-4e05-8e98-7d93a2ad8964",
         "141c43f7-e709-4694-8c7c-d76203fdad6f",
@@ -1646,6 +1693,7 @@
         "c074e912-3bf5-45ee-87c6-3f80ff8c6856",
         "2fb1edd5-1212-4e64-91d9-3c649128fbeb",
         "b34eff6a-2ccc-4028-936b-198e513d2f0b",
+        "ab08bb82-c949-4e5f-9621-798c0518ab7c",
         "4b17cfea-5de1-4278-9fbe-98cedc3e632a",
         "8dbe439c-9ecf-4b3c-b151-b409f688298d",
         "334d8e6e-4676-45a3-ab96-a8a190cccbb0",

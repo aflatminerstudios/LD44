@@ -9,7 +9,5 @@ valid = true;
 
 parent = noone;
 
-shipX = 0;
-shipY = 0;
-clawX = 0;
-clawY = 0;
+
+image_speed = 0;

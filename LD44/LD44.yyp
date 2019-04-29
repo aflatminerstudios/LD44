@@ -383,6 +383,14 @@
             }
         },
         {
+            "Key": "38746359-861a-42c5-bd4c-18421d879040",
+            "Value": {
+                "id": "6efb81ca-abe5-44b0-ae50-3c0a74ea1ea8",
+                "resourcePath": "views\\38746359-861a-42c5-bd4c-18421d879040.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "399d49aa-0a1c-4ef2-be40-4a1e9ba6d401",
             "Value": {
                 "id": "0f885634-9286-4362-ac77-6da1007d9c4c",
@@ -468,6 +476,14 @@
                 "id": "a15afd8b-4129-4d3d-a6c0-7554906beaf0",
                 "resourcePath": "objects\/objBirdLook\/objBirdLook.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "4599ed70-0466-4b0a-b40c-b3d83e25eb02",
+            "Value": {
+                "id": "47ca2582-6565-413c-97d3-c804e94415cb",
+                "resourcePath": "sprites\\sprWinButton\\sprWinButton.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -607,6 +623,14 @@
             }
         },
         {
+            "Key": "5aae42ba-d261-4d6c-8a3b-46387ed2701e",
+            "Value": {
+                "id": "d6c29c87-0138-422a-bff3-d012dd1148f5",
+                "resourcePath": "objects\\objStoryControl\\objStoryControl.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5af6eca8-0054-4040-9b64-ac5b242460ee",
             "Value": {
                 "id": "fab4f26a-c365-4cd7-8b3a-3f8753009477",
@@ -732,6 +756,14 @@
                 "id": "1381d6fe-dafd-4835-bfdc-bb2748bebd72",
                 "resourcePath": "objects\/objDock\/objDock.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "73bc09f3-a8fd-4d28-b258-3c904de4b4d8",
+            "Value": {
+                "id": "b773f189-5184-4c87-ba4d-98d3b33a547d",
+                "resourcePath": "rooms\\roomStory\\roomStory.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -1028,6 +1060,14 @@
                 "id": "a1dfa438-25c1-489e-adf0-8ba062be3d50",
                 "resourcePath": "fonts\\fontUpgradePrice\\fontUpgradePrice.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "9aafb3a2-c952-49fe-826a-8fc9a08bbcf0",
+            "Value": {
+                "id": "cb11133b-0157-4322-b95f-175ee0369f91",
+                "resourcePath": "sprites\\sprStory\\sprStory.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1524,6 +1564,14 @@
                 "id": "260bb64b-1526-4b0d-b5fb-5be0297ea207",
                 "resourcePath": "objects\\objTentacles\\objTentacles.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d127fd2e-4edf-46d2-99ed-428bd3ef0ab9",
+            "Value": {
+                "id": "866446a3-e504-4e33-881a-f440e495f906",
+                "resourcePath": "sprites\\sprStayButton\\sprStayButton.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

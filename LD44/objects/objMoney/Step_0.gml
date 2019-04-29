@@ -10,7 +10,7 @@ if (parent != noone) {
   
   if (!place_meeting(x, newY, objTerrainAlpha)) {
     y = newY;
-  } else {
+  } else {    
     while (!place_meeting(x, y + 1, objTerrainAlpha)) {
       y += 1; 
     }

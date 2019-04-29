@@ -78,6 +78,14 @@ if (parent != noone) {
       y -= 1;
       parentDist = point_distance(x, y, parent.x, parent.y);
     }
+    if (carrying) {
+      with (carriedObject) {
+        while (place_meeting(x, other.y, objTerrainAlpha)) {
+          other.y -= 1;
+          parentDist = point_distance(x, other.y, other.parent.x, other.parent.y);
+        }  
+      }
+    }
     
     /*var bottom = room_height - sprite_height/2;
 

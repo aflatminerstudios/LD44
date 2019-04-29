@@ -5,7 +5,7 @@ if (parent != noone) {
   x = parent.x;
   y = parent.y;
 } else {
-  //TODO: Change this to deal with terrain instead of bottom of the screen
+  
   var newY = y + dropSpeed;
   
   if (!place_meeting(x, newY, objTerrainAlpha)) {

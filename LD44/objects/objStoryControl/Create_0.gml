@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-
+scrInitializeGame();
 whichStep = 0;
 
 music = sndStoryBG;

@@ -3,4 +3,4 @@
 
 
 //TODO: Remove this
-global.debug = !global.debug;
+//global.debug = !global.debug;

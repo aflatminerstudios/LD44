@@ -14,7 +14,7 @@ attackCooldown = room_speed * 2;
 attackCountdown = attackCooldown;
 updateAttackTime = room_speed / 4;
 
-baseSpeed = 4;
+baseSpeed = 3;
 moveSpeed = 4;
 moveVariance = 2;
 

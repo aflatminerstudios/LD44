@@ -18,8 +18,8 @@ selectedItem = 0;
 maxItem = 1;
 
 
-boat = instance_create_depth(menuItems[0].x, 200, depth - 1, objUpgradeBoat);
-claw = instance_create_depth(menuItems[0].x, 200 + boat.sprite_height/2, depth - 1, objUpgradeClaw);
+boat = instance_create_depth(menuItems[0].x, 150, depth - 1, objUpgradeBoat);
+claw = instance_create_depth(menuItems[0].x, 150 + boat.sprite_height/2, depth - 1, objUpgradeClaw);
 
 boat.parent = self.id;
 claw.parent = self.id;

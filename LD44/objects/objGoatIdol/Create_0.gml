@@ -5,7 +5,7 @@
 event_inherited();
 
 
-baseValue = 20 + irandom_range(-10, 10);
+baseValue = 200 + irandom_range(-75, 75);
 value = baseValue;
 
 targetIndex = 1;

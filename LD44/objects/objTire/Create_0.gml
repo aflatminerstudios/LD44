@@ -4,7 +4,7 @@
 // Inherit the parent event
 event_inherited();
 
-baseValue = 10 + irandom_range(-5, 5);
+baseValue = 100 + irandom_range(-50, 50);
 value = baseValue;
 
 targetIndex = 2;

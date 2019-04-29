@@ -12,3 +12,4 @@ sparkles.parent = self.id;
 targetIndex = 3;
 
 dropSpeed = 5;
+landed = false;

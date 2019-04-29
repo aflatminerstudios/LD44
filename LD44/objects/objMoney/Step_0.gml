@@ -13,6 +13,7 @@ if (parent != noone) {
   } else {    
     while (!place_meeting(x, y + 1, objTerrainAlpha)) {
       y += 1; 
-    }
+    }    
   }
+ 
 }
